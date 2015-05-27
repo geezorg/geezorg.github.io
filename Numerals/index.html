@@ -1,0 +1,76 @@
+<html>
+<head>
+  <title>A Look at Ethiopic Numerals</title>
+  <META HTTP-EQUIV="content-type" content="text-html; charset=utf-8">
+  <meta name="keywords" content="Ethiopic, Numbers, Numerals, Numerology, Java, C#, C Sharp, Perl, C">
+</head>
+<body bgcolor="#fffffh">
+
+<h1 align="center">A Look at Ethiopic Numerals</h1>
+
+<table width="800" align="center">
+<tr>
+<td>
+<p align="justify">Ethiopic numerals have a familiar quality about them that seems to catch the eye and pique the imagination of the first-time viewer.  In particular, the bars above and below the letter-like symbols appear reminiscent of their Roman counterparts.  The symbols in between the bars, however, are clearly not of Roman origin. The shapes appear Ethiopic but only half seem to correspond to Ethiopic syllables and in an incomprehensible order.</p>
+
+<p align="justify">The mystery begins to unfold when we look at the lesser-known ancient Greek numeral system.  The ancient Greeks used two numeral systems, in fact.  The &quot;Acrophonic&quot; numeral system was used for weights and measures.  The &quot;Milesian&quot; numeral system used universally and based on the lower case letters marked with a <b>'</b> to indicate the numeric context.  The Ethiopic numerals are said to have come from the interpretation of the Milesian system by Ethiopia's Nile brethren the Egyptian Copts.  In the Coptic practice the preferred numeric modifier was a bar, <img src="images/topbar.gif" align="top">, placed above their lower case letters.  Coptic script borrowed heavily from the Greek uppercase alphabet.  The Coptic lowercase characters are nearly indistinguishable from the upper and the bar in some practices is also used as a means to clearly mark an uppercase context.</p>
+
+<p align="justify">It is unclear if the Ethiopians borrowed the Coptic numerals outright or just the practice of using the alphabet to create a recordable counting system.  Perhaps a little of both.  It would be a difficult case to argue that 
+ገ, ዐ, ጌ, ጊ, ሀ, ሣ, ሃ, ሮ, ን
+and
+የ.
+did not in some way influence the numerals
+፫, ፬, ፮, ፯, ፱, ፵, ፶, ፸, ፺
+and
+፻.</p>
+
+
+<div align="center"><img src="images/NumberTable2-cropped.gif"></div>
+
+<p align="justify">After 100 the Copts and Greeks went on define alphabetic letters as representing multiples of a hundred up to 900.  The Ethiopians did this as well but ultimately did not introduce a new numeral glyph until 10,000, which is also when we see the last Greek entry. Rather, the Ethiopians chose to prefix ones and tens to 100 (e.g. 200 = ፪፻, 2,200 = ፳፪፻).  None of the groups had a number for zero (the alphabet starts with the <i>1<sup>st</i></sup> letter) nor a thousand.  <i>Ilf</i>, the final Ethiopic numeral, `፼', is often confused as the representation of 1,000. This is probably because it appears as the next logical order of 10 following 100, `፻', it is however ten thousand. As we shall soon see, orders of 100 are very important to Ethiopic number formatting, consider `፼' as the shorthand of `፻፻' (literally &quot;one hundred <i>one hundreds</i>&quot; or ፻ × ፻ = ፼ = 10,000).   The syllable `ሺ', short for &quot;thousand&quot; in Amharic, is used as the numeral for 1,000 along side western numerals but rarely with Ethiopic.</p>
+
+<p align="justify">An interesting point to note is that the Copts and Greeks inserted archaic characters for the numbers 6 and 90.  These adjustments helped create the &quot;Omicron-Ayne Axis&quot; at number 70 where the two circular glyphs curiously line up.  It is all the more curious that in <a href="Numerology.html">numerology tables</a> (another subject!) using the Ge'ez syllabary in the Unicode like `ሀለሐ' ordering, Omicron and Ayne are the <i>only</i> two that remain aligned!  While this may be no more than mere coincidence it is probable that Copts, Greeks and Ethiopians were making an effort to syncronize the numeric values assigned to letters with the equivalent letters and values used in the Hebrew ``Gematria'' practice.  Thus transporting the practice to a limited extent.</p>
+
+<h2><i>Conversion</i></h2>
+
+<p align="justify">Conversion from Ethiopic numerals into western form is trivial, going the other way, however, takes a little care.  Somewhere in an ancient corner of forgotten mathematics lies a sleeping conversion formula in wait of reawakening.  Deciding it was better to let sleeping formulas lie and not confront my limitations as a mathematician I found a relatively pain free means to convert long numbers.  The key lies in understanding the mechanics of Ethiopic numeral sequences as groups of tens partitioned by orders of a hundred:</p>
+
+<img src="images/8steps.png">
+
+
+<p align="justify">We do need to add to our 8 easy steps the rule that &quot;፩'s and 0's multiply with ፻&quot;.  In the first case, ፩'s can not appear before an Ethiopic hundred (፻) when the value in the <i>tens</i> place is zero. Demonstrating the rule, suppose that our example number had the sequence &quot;01&quot; or &quot;00&quot; instead of &quot;43&quot;.  The reductions would have then followed as per:
+
+<dir>
+([0][1])<SUB>1</SUB> =&gt;
+  (፩) + (፻) =&gt;
+  (1፻) =&gt;
+  (፻)
+</dir>
+<p>and</p>
+<dir>
+([0][0])<SUB>1</SUB> =&gt;
+  (0) + (፻) =&gt;
+  (0፻) =&gt;
+  (&nbsp;)
+</dir>
+</p>
+
+<p align="justify">Computationally, this &quot;grouping by twos&quot; method is probably not the most efficient approach, but it gets the job done.  Pseudo code for the method is in our last table:</p>
+
+
+<div align="center"><img src="images/numeral-algorithm.png"></div>
+
+<p align="right"><em><a href="NumberSamples.html">Sample Numbers generated by this algorithm.</a></em></p>
+</td>
+</tr>
+</table>
+
+<hr size="2">
+
+<div align="right">See Also: <a href="ftp://ftp.geez.org/pub/numerals/number-test.pl">A Numeral Conversion Demonstration Script in Perl</a><br>
+<a href="ArabicToEthiopic.c">A Numeral Conversion Algorithm in C</a><br>
+<a href="ArabicToEthiopic.java">A Numeral Conversion Algorithm in Java</a><br>
+<a href="ArabicToEthiopic.cs">A Numeral Conversion Algorithm in C#</a></div>
+
+</BODY>
+</html>

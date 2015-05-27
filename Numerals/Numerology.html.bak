@@ -1,0 +1,588 @@
+<html>
+<head>
+  <title>Numerology</title>
+  <META HTTP-EQUIV="content-type" content="text-html; charset=utf-8">
+</head>
+<body bgcolor="#fffffh">
+
+<h2>Numerology</h2>
+
+<p align="justify">Apart from the Ethiopic numerals (or አኃዝ - U+1369-U+137C), which were in fact derived from the Ethiopic letters<sup><a href="Bibliography.html#8">8</a></sup>, there is a fortune telling as well as mystical practice of associating numeric values to letters.</p>
+
+<p align="justify">The simplest form of enumeration applies only to the ግዕዝ (first) form letters arranged in the Hebrew order. This arrangement appears to be an attempt to superimpose the Gematria discipline of Hebrew and Greek mysticism onto the Ge'ez character set.  Gematria, derived from the Greek word "geometry" (also known as "Sacred Geometry" and "Isopsephia" in Greek<sup><a href="Bibliography.html#15">15</a></sup>) is the practice of assigning numeric value to letters to reveal hidden meanings and relationships thru the summation of the letters in keyword found in sacred text.  A phonetic based superposition would help keep the values of personal and place names equal across translated scriptures as the characters of each script are first phonetically aligned before the numeric assignments are made. Where Ge'ez members had to be removed (ኀ and ፀ) to maintain the phonetic sequence with Hebrew (the character names also indicate the alignment), archaic letters were inserted into the Greek sequence (&#986; and &#990;) to stay in locked step with Hebrew.  Or so it appears, there are convincing arguments that show the Hebrew enumerations were borrowed from an earlier Greek practice.  Unquestionably the Gematria practice reached its most developed state in Judaism where it flourished and remains strongest in the present day.</p>
+
+<p align="justify">Variations on the theme occur in Hebrew after the end of the Hebrew alephbet, which would otherwise end in 400. At this point letters that were skipped in the Ge'ez "Abegede" order now begin from 500. There appears to be two conventions that allow Gematria for Hebrew script to continue. Whereby final forms of certain letters may be employed or the primary group is used in combination to form values thru summation. It should be noted that enumeration of letters to serve as numbers for Semitic scripts was fairly common. It is not known to the present author if the enumeration had the same intended purpose. Resource readily available on the World Wide Web would indicate that enumeration after 400 is less common and may have become a practice lost to antiquity.</p>
+
+
+
+<h3>Gematria Enumeration</h3>
+
+<table border>
+  <tr>
+    <th>Ethiopic</th>
+    <th>Hebrew</th>
+    <th>Greek</th>
+    <th>Value</th>
+    <th>Ethiopic<br>Numeral</th>
+  </tr>
+  <tr>
+    <td>አ<br>Alef</td>
+    <td>&#1488;<br>Alef</td>
+    <td>&#913;<br>Alpha</td>
+    <td>1</td>
+    <td>፩</td>
+  </tr>
+  <tr>
+    <td>በ<br>Bet</td>
+    <td>&#1489;<br>Bet</td>
+    <td>&#914;<br>Beta</td>
+    <td>2</td>
+    <td>፪</td>
+  </tr>
+  <tr>
+    <td>ገ<br>Gemel</td>
+    <td>&#1490;<br>Gimel</td>
+    <td>&#915;<br>Gamma</td>
+    <td>3</td>
+    <td>፫</td>
+  </tr>
+  <tr>
+    <td>ደ<br>Dint</td>
+    <td>&#1491;<br>Dalet</td>
+    <td>&#916;<br>Delta</td>
+    <td>4</td>
+    <td>፬</td>
+  </tr>
+  </tr>
+  <tr>
+    <td>ሀ<br>Hoy</td>
+    <td>&#1492;<br>He</td>
+    <td>&#917;<br>Epsilon</td>
+    <td>5</td>
+    <td>፭</td>
+  </tr>
+  </tr>
+  <tr>
+    <td>ወ<br>Wewe</td>
+    <td>&#1493;<br>Vav</td>
+    <td bgcolor="#bfbfbf">&#986;/&#988;<br>Vau</td>
+    <td>6</td>
+    <td>፮</td>
+  </tr>
+  <tr>
+    <td>ዘ<br>Zey</td>
+    <td>&#1494;<br>Zayin</td>
+    <td>&#918;<br>Zeta</td>
+    <td>7</td>
+    <td>፯</td>
+  </tr>
+  <tr>
+    <td>ሐ<br>Hawt</td>
+    <td>&#1495;<br>Het</td>
+    <td>&#919;<br>Eta</td>
+    <td>8</td>
+    <td>፰</td>
+  </tr>
+  <tr bgcolor="#bfbfbf">
+    <td>ኀ<br>Harm</td>
+    <td colspan="4">&#986; or &#988; inserted into Greek sequence.<br>
+    ኀ skipped in normal Ge'ez sequence</td>
+  </tr>
+  <tr>
+    <td>ጠ<br>Teyt</td>
+    <td>&#1496;<br>Tet</td>
+    <td>&#920;<br>Theta</td>
+    <td>9</td>
+    <td>፱</td>
+  </tr>
+  <tr>
+    <td>የ<br>Yemen</td>
+    <td>&#1497;<br>Yod</td>
+    <td>&#921;<br>Iota</td>
+    <td>10</td>
+    <td>፲</td>
+  </tr>
+  <tr>
+    <td>ከ<br>Kaf</td>
+    <td>&#1499;<br>Kaf</td>
+    <td>&#922;<br>Kappa</td>
+    <td>20</td>
+    <td>፳</td>
+  </tr>
+  <tr>
+    <td>ለ<br>Lawi</td>
+    <td>&#1500;<br>Lamed</td>
+    <td>&#923;<br>Lambda</td>
+    <td>30</td>
+    <td>፴</td>
+  </tr>
+  <tr>
+    <td>መ<br>May</td>
+    <td>&#1502;<br>Mem</td>
+    <td>&#924;<br>Mu</td>
+    <td>40</td>
+    <td>፵</td>
+  </tr>
+  <tr>
+    <td>ነ<br>Nehas</td>
+    <td>&#1504;<br>Nun</td>
+    <td>&#925;<br>Nu</td>
+    <td>50</td>
+    <td>፶</td>
+  </tr>
+  <tr>
+    <td>ሠ<br>Sewt</td>
+    <td>&#1505;<br>Samekh</td>
+    <td>&#926;<br>Xi</td>
+    <td>60</td>
+    <td>፷</td>
+  </tr>
+  <tr>
+    <td>ዐ<br>Ayin</td>
+    <td>&#1506;<br>Ayin</td>
+    <td>&#927;<br>Omicron</td>
+    <td>70</td>
+    <td>፸</td>
+  </tr>
+  <tr>
+    <td>ፈ<br>Af</td>
+    <td>&#1508;<br>Pe</td>
+    <td>&#928;<br>Pi</td>
+    <td>80</td>
+    <td>፹</td>
+  </tr>
+  <tr>
+    <td>ጸ<br>Seday</td>
+    <td>&#1510;<br>Tsadi</td>
+    <td bgcolor="#bfbfbf">&#990;<br>Koppa</td>
+    <td>90</td>
+    <td>፺</td>
+  </tr>
+  <tr bgcolor="#bfbfbf">
+    <td>ፀ<br>Sepa</td>
+    <td colspan="4">&#990; inserted into Greek sequence.<br>
+    ፀ skipped in normal Ge'ez sequence.</td>
+  </tr>
+  <tr>
+    <td>ቀ<br>Qaf</td>
+    <td>&#1511;<br>Qof</td>
+    <td>&#929;<br>Rho</td>
+    <td>100</td>
+    <td>፻</td>
+  </tr>
+  <tr>
+    <td>ረ<br>Ris</td>
+    <td>&#1512;<br>Resh</td>
+    <td>&#931;<br>Sigma</td>
+    <td>200</td>
+    <td>፪፻</td>
+  </tr>
+  <tr>
+    <td>ሰ<br>Sat</td>
+    <td>&#1513;<br>Shin</td>
+    <td>&#932;<br>Tau</td>
+    <td>300</td>
+    <td>፫፻</td>
+  </tr>
+  <tr>
+    <td>ተ<br>Taw</td>
+    <td>&#1514;<br>Tav</td>
+    <td>&#933;<br>Upsilon</td>
+    <td>400</td>
+    <td>፬፻</td>
+  </tr>
+  <tr bgcolor="#bfbfbf">
+    <td colspan="5">End of Hebrew Alephbet</td>
+  </tr>
+  <tr>
+    <td>ኀ<br>Harm</td>
+    <td>&#1498;<br>Final Kaf</td>
+    <td>&#934;<br>Phi</td>
+    <td>500</td>
+    <td>፭፻</td>
+  </tr>
+  <tr>
+    <td>ፀ<br>Sepa</td>
+    <td>&#1501;<br>Final Mem</td>
+    <td>&#935;<br>Chi</td>
+    <td>600</td>
+    <td>፮፻</td>
+  </tr>
+  <tr>
+    <td>ጰ<br>Peyt</td>
+    <td>&#1503;<br>Final Nun</td>
+    <td>&#936;<br>Psi</td>
+    <td>700</td>
+    <td>፯፻</td>
+  </tr>
+  <tr>
+    <td>ፐ<br>Psa</td>
+    <td>&#1507;<br>Final Pe</td>
+    <td>&#937;<br>Omega</td>
+    <td>800</td>
+    <td>፰፻</td>
+  </tr>
+  <tr>
+    <td>ኈ<br>Harm-Zemede-Ge'ez</td>
+    <td>&#1509;<br>Final Tsadi</td>
+    <td>&#992;<br>Sampi</td>
+    <td>900</td>
+    <td>፱፻</td>
+  </tr>
+  <tr>
+    <td>ቈ<br>Qaf-Zemede-Ge'ez</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>1,000</td>
+    <td>፲፻</td>
+  </tr>
+  <tr>
+    <td>እ<br>Alef-Sadis</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>10,000</td>
+    <td>፼</td>
+  </tr>
+  <tr bgcolor="#bfbfbf">
+    <td colspan="5">Continuing named orders of ten for the curious...</td>
+  </tr>
+  <tr>
+    <td>የእ<br>Yemen-Ge'ez Alef-Sadis</td>
+    <td>(አእላፍ)</td>
+    <td>&nbsp;</td>
+    <td>100,000</td>
+    <td>፲፼</td>
+  </tr>
+  <tr>
+    <td>ቀእ<br>Qaf-Ge'ez Alef-Sadis</td>
+    <td>(አእላፋት)</td>
+    <td>&nbsp;</td>
+    <td>1,000,000</td>
+    <td>፻፼</td>
+  </tr>
+  <tr>
+    <td>ቈእ<br>Qaf-Zemede-Ge'ez Alef-Sadis</td>
+    <td>(ትእልፊት)</td>
+    <td>&nbsp;</td>
+    <td>10,000,000</td>
+    <td>፲፻፼</td>
+  </tr>
+  <tr>
+    <td>እእ<br>Alef-Sadis Alef-Sadis</td>
+    <td>(ትእልፊታት)</td>
+    <td>&nbsp;</td>
+    <td>100,000,000</td>
+    <td>፼፼</td>
+  </tr>
+  <tr>
+    <td>ቈእእ<br>Qaf-Zemede-Ge'ez Alef-Sadis Alef-Sadis</td>
+    <td>(ምእልፊት)</td>
+    <td>&nbsp;</td>
+    <td>100,000,000,000</td>
+    <td>፲፻፼፼</td>
+  </tr>
+  <tr>
+    <td>እእእ<br>Alef-Sadis Alef-Sadis Alef-Sadis</td>
+    <td>(ምእልፊታት)</td>
+    <td>&nbsp;</td>
+    <td>1,000,000,000,000</td>
+    <td>፼፼፼</td>
+  </tr>
+</table>
+
+
+<p>Note that the Greek letters Stigma (&#986; a Sigma-Tau ligature) and Digamma (&#988;) could both be used for the number 6 and were known in numeric context as "Vau".</p>
+
+
+
+
+<h3>Debtera (Halehame) Enumeration</h3>
+
+<p align="justify">The applicability of the "Abegede" enumeration is not well understood; it may be a scholarly alternative to the preferred "Halehame" system of the debtere.  The debtere are adjunct members of the Ethiopian Orthodox Church clergy.  Though not ordained, debtere will have a wider range of learned skills than what is required of a priest.  They perform the music and dance associated with church services and also function as astrologers, herbalists, scribes, wizards, and fortune-tellers and learn church lore. The system extends the enumeration for the original seven syllabic forms of the syllabary. The application of the numerals after the first form is not clear. Example usage of the system to find the numeric value of words invariably uses the letters of a word in the first form only. Seemingly as if the pre-syllabic Ge'ez was somehow more meaningful in the practice.</p>
+
+<p align="justify">Proponents of the "halehame" enumeration testify to the better results it offers when applied as Gematria. A validation of the ordering comes from the numeric value of ክርስቶስ (Christos) which expands to: ከ 50 + ረ 6 + ሰ 7 + ቶ 10 + ሰ 7 = 80. Eighty in turn multiplied by ten is eight hundred, which is exactly the value of ፖ the last member of the first order of the syllabary<sup><a href="Bibliogrpahy.html#2">2</a></sup>.</p>
+
+<p align="justify">A basic example use of the enumeration system applied to fortune telling is to take a person's mother's name, find its summation from the first form characters, take the modulo of twelve and compare it against the corresponding star for that month. The resulting star then indicates what fortune that person can expect in his or her lifetime. This use of numerology with astrology is in the much the same tradition as the monthly Zodiac system still popular in the west and the Chinese annual system where the animal for a given year indicates what fortune a person can expect. No doubt there are the available variations to offer a second opinion when needed.</p>
+
+<center><div align="center">
+<table border>
+  <tr>
+	<th>&nbsp;</td></th>
+	<th>ግዕዝ</th>
+	<th>ካዕብ</th>
+	<th>ሣልስ</th>
+	<th>ራብዕ</th>
+	<th>ኃምስ</th>
+	<th>ሳድስ</th>
+	<th>ሳብዕ</th>
+  </tr>
+  <tr>
+    <th>ሆይ<br>Hoy</th>
+	<td>ሀ<br>፩</td>
+	<td>ሁ<br>፪</td>
+	<td>ሂ<br>፫</td>
+	<td>ሃ<br>፬</td>
+	<td>ሄ<br>፭</td>
+	<td>ህ<br>፮</td>
+	<td>ሆ<br>፯</td>
+  </tr>
+  <tr>
+    <th>ላዊ<br>Lawi</th>
+	<td>ለ<br>፪</td>
+	<td>ሉ<br>፬</td>
+	<td>ሊ<br>፮</td>
+	<td>ላ<br>፰</td>
+	<td>ሌ<br>፲</td>
+	<td>ል<br>፲፪</td>
+	<td>ሎ<br>፲፬</td>
+  </tr>
+  <tr>
+    <th>ሐውት<br>Hawt</th>
+	<td>ሐ<br>፫</td>
+	<td>ሑ<br>፮</td>
+	<td>ሒ<br>፱</td>
+	<td>ሓ<br>፲፪</td>
+	<td>ሔ<br>፲፭</td>
+	<td>ሕ<br>፲፰</td>
+	<td>ሖ<br>፳፩</td>
+  </tr>
+  <tr>
+    <th>ማይ<br>May</th>
+	<td>መ<br>፬</td>
+	<td>ሙ<br>፰</td>
+	<td>ሚ<br>፲፪</td>
+	<td>ማ<br>፲፮</td>
+	<td>ሜ<br>፳</td>
+	<td>ም<br>፳፬</td>
+	<td>ሞ<br>፳፰</td>
+  </tr>
+  <tr>
+    <th>ሠውት<br>Sewt</th>
+	<td>ሠ<br>፭</td>
+	<td>ሡ<br>፲</td>
+	<td>ሢ<br>፲፭</td>
+	<td>ሣ<br>፳</td>
+	<td>ሤ<br>፳፭</td>
+	<td>ሥ<br>፴</td>
+	<td>ሦ<br>፴፭</td>
+  </tr>
+  <tr>
+    <th>ርእስ<br>Ris</th>
+	<td>ረ<br>፮</td>
+	<td>ሩ<br>፲፪</td>
+	<td>ሪ<br>፲፰</td>
+	<td>ራ<br>፳፬</td>
+	<td>ሬ<br>፴</td>
+	<td>ር<br>፴፮</td>
+	<td>ሮ<br>፵፪</td>
+  </tr>
+  <tr>
+    <th>ሳት<br>Sat</th>
+	<td>ሰ<br>፯</td>
+	<td>ሱ<br>፲፬</td>
+	<td>ሲ<br>፳፩</td>
+	<td>ሳ<br>፳፰</td>
+	<td>ሴ<br>፴፭</td>
+	<td>ስ<br>፵፪</td>
+	<td>ሶ<br>፵፱</td>
+  </tr>
+  <tr>
+    <th>ቃፍ<br>Qaf</th>
+	<td>ቀ<br>፰</td>
+	<td>ቁ<br>፲፮</td>
+	<td>ቂ<br>፳፬</td>
+	<td>ቃ<br>፴፪</td>
+	<td>ቄ<br>፵</td>
+	<td>ቅ<br>፵፰</td>
+	<td>ቆ<br>፶፮</td>
+  </tr>
+  <tr>
+	<th>Bet<br>ቤት</td>
+	<td>በ<br>፱</td>
+	<td>ቡ<br>፲፰</td>
+	<td>ቢ<br>፳፯</td>
+	<td>ባ<br>፴፮</td>
+	<td>ቤ<br>፵፭</td>
+	<td>ብ<br>፶፬</td>
+	<td>ቦ<br>፷፫</td>
+  </tr>
+  <tr>
+	<th>Taw<br>ታው</td>
+	<td>ተ<br>፲</td>
+	<td>ቱ<br>፳</td>
+	<td>ቲ<br>፴</td>
+	<td>ታ<br>፵</td>
+	<td>ቴ<br>፶</td>
+	<td>ት<br>፷</td>
+	<td>ቶ<br>፸</td>
+  </tr>
+  <tr>
+	<th>Harm<br>ኀርም</td>
+	<td>ኀ<br>፳</td>
+	<td>ኁ<br>፵</td>
+	<td>ኂ<br>፷</td>
+	<td>ኃ<br>፹</td>
+	<td>ኄ<br>፻</td>
+	<td>ኅ<br>፻፳</td>
+	<td>ኆ<br>፻፵</td>
+  </tr>
+  <tr>
+    <th>ነሐስ<br>Nehas</th>
+	<td>ነ<br>፴</td>
+	<td>ኑ<br>፷</td>
+	<td>ኒ<br>፺</td>
+	<td>ና<br>፻፳</td>
+	<td>ኔ<br>፻፶</td>
+	<td>ን<br>፻፹</td>
+	<td>ኖ<br>፪፻፲</td>
+  </tr>
+  <tr>
+    <th>አልፍ<br>Alef</th>
+	<td>አ<br>፵</td>
+	<td>ኡ<br>፹</td>
+	<td>ኢ<br>፻፳</td>
+	<td>አ<br>፻፷</td>
+	<td>ኤ<br>፪፻</td>
+	<td>እ<br>፪፻፵</td>
+	<td>ኦ<br>፪፻፹</td>
+  </tr>
+  <tr>
+    <th>ካፍ<br>Kaf</th>
+	<td>ከ<br>፶</td>
+	<td>ኩ<br>፻</td>
+	<td>ኪ<br>፻፶</td>
+	<td>ካ<br>፪፻</td>
+	<td>ኬ<br>፪፻፶</td>
+	<td>ክ<br>፫፻</td>
+	<td>ኮ<br>፫፻፶</td>
+  </tr>
+  <tr>
+    <th>ወዌ<br>Wewe</th>
+	<td>ወ<br>፷</td>
+	<td>ዉ<br>፻፳</td>
+	<td>ዊ<br>፻፹</td>
+	<td>ዋ<br>፪፻፵</td>
+	<td>ዌ<br>፫፻</td>
+	<td>ው<br>፫፻፷</td>
+	<td>ዎ<br>፬፻፳</td>
+  </tr>
+  <tr>
+    <th>ዐይን<br>Ayin</th>
+	<td>ዐ<br>፸</td>
+	<td>ዑ<br>፻፵</td>
+	<td>ዒ<br>፪፻፲</td>
+	<td>ዓ<br>፪፻፹</td>
+	<td>ዔ<br>፫፻፶</td>
+	<td>ዕ<br>፬፻፳</td>
+	<td>ዖ<br>፬፻፺</td>
+  </tr>
+  <tr>
+    <th>ዘይ<br>Zey</th>
+	<td>ዘ<br>፹</td>
+	<td>ዙ<br>፻፷</td>
+	<td>ዚ<br>፪፻፵</td>
+	<td>ዛ<br>፫፻፳</td>
+	<td>ዜ<br>፬፻</td>
+	<td>ዝ<br>፬፻፹</td>
+	<td>ዞ<br>፭፻፷</td>
+  </tr>
+  <tr>
+    <th>የመን<br>Yemen</th>
+	<td>የ<br>፺</td>
+	<td>ዩ<br>፻፹</td>
+	<td>ዪ<br>፪፻፸</td>
+	<td>ያ<br>፫፻፷</td>
+	<td>ዬ<br>፬፻፶</td>
+	<td>ይ<br>፭፻፵</td>
+	<td>ዮ<br>፮፻፴</td>
+  </tr>
+  <tr>
+    <th>ድንት<br>Dint</th>
+	<td>ደ<br>፻</td>
+	<td>ዱ<br>፪፻</td>
+	<td>ዲ<br>፫፻</td>
+	<td>ዳ<br>፬፻</td>
+	<td>ዴ<br>፭፻</td>
+	<td>ድ<br>፮፻</td>
+	<td>ዶ<br>፯፻</td>
+  </tr>
+  <tr>
+    <th>ገምል<br>Gemel</th>
+	<td>ገ<br>፪፻</td>
+	<td>ጉ<br>፬፻</td>
+	<td>ጊ<br>፮፻</td>
+	<td>ጋ<br>፰፻</td>
+	<td>ጌ<br>፲፻</td>
+	<td>ግ<br>፲፪፻</td>
+	<td>ጎ<br>፲፬፻</td>
+  </tr>
+  <tr>
+    <th>ጠይት<br>Teyt</th>
+	<td>ጠ<br>፫፻</td>
+	<td>ጡ<br>፮፻</td>
+	<td>ጢ<br>፱፻</td>
+	<td>ጣ<br>፲፪፻</td>
+	<td>ጤ<br>፲፭፻</td>
+	<td>ጥ<br>፲፰፻</td>
+	<td>ጦ<br>፳፩፻</td>
+  </tr>
+  <tr>
+    <th>ጰይት<br>Peyt</th>
+	<td>ጰ<br>፬፻</td>
+	<td>ጱ<br>፰፻</td>
+	<td>ጲ<br>፲፪፻</td>
+	<td>ጳ<br>፲፮፻</td>
+	<td>ጴ<br>፳፻</td>
+	<td>ጵ<br>፳፬፻</td>
+	<td>ጶ<br>፳፰፻</td>
+  </tr>
+  <tr>
+    <th>ጸደይ<br>Sedey</th>
+	<td>ጸ<br>፭፻</td>
+	<td>ጹ<br>፲፻</td>
+	<td>ጺ<br>፲፭፻</td>
+	<td>ጻ<br>፳፻</td>
+	<td>ጼ<br>፳፭፻</td>
+	<td>ጽ<br>፴፻</td>
+	<td>ጾ<br>፴፭፻</td>
+  </tr>
+  <tr>
+    <th>ፀጳ<br>Sepa</th>
+	<td>ፀ<br>፮፻</td>
+	<td>ፁ<br>፲፪፻</td>
+	<td>ፂ<br>፲፰፻</td>
+	<td>ፃ<br>፳፬፻</td>
+	<td>ፄ<br>፴፻</td>
+	<td>ፅ<br>፴፮፻</td>
+	<td>ፆ<br>፵፪፻</td>
+  </tr>
+  <tr>
+    <th>አፍ<br>Af</th>
+	<td>ፈ<br>፯፻</td>
+	<td>ፉ<br>፲፬፻</td>
+	<td>ፊ<br>፳፩፻</td>
+	<td>ፋ<br>፳፰፻</td>
+	<td>ፌ<br>፴፭፻</td>
+	<td>ፍ<br>፵፪፻</td>
+	<td>ፎ<br>፵፱፻</td>
+  </tr>
+  <tr>
+    <th>ፕሳ<br>Psa</th>
+	<td>ፐ<br>፰፻</td>
+	<td>ፑ<br>፲፮፻</td>
+	<td>ፒ<br>፳፬፻</td>
+	<td>ፓ<br>፴፪፻</td>
+	<td>ፔ<br>፵፻</td>
+	<td>ፕ<br>፵፰፻</td>
+	<td>ፖ<br>፶፮፻</td>
+  </tr>
+
+</table>
+</div></center>
+
+<h3>But is it Essential?</h3>
+
+<p align="justify">Ultimately no. This class of character information is not widely applicable to text and information processing. Ethiopic numerology while still in use plays a role in modern society analogous to a "Zodiac" type fortune telling system and would only be applied in specialized software for this purpose.</p>
+
+</body>
+</html>

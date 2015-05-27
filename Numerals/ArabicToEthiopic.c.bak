@@ -1,0 +1,116 @@
+/* define number addresses */
+#define ONE           0x1369
+#define TEN           ONE + 9
+#define HUNDRED       TEN + 9
+#define TENTHOUSAND   HUNDRED + 1
+
+
+ /**+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+/
+/+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+/
+//
+//  arabtof (number)
+//
+//  Convert a string of ASCII digits into Ethiopic numerals.
+//
+//  number   -is a pointer to an ASCII string with a numeric sequence to be
+//            convereted  ("1998" , "4,321" , ... )
+//
+//+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+/
+/+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+**/
+
+
+unsigned short*
+ArabicToEthiopic (number)
+  char* number;
+{
+
+unsigned short *ethioNumString, *returnString;
+register int i, j, m, n;
+char asciiOne, asciiTen;
+unsigned short gezOne, gezTen;
+int place ;
+/**
+ *struct lconv* localeconv(void);
+ *
+ * At the moment this struct is giving me empty string for 
+ * localeconv()->thousands_sep and localeconv()->mon_thousands_sep
+ * so, guess we'll be using it later...
+ *
+ */
+
+
+  if ( number == NULL )
+    return ( _LET_FAIL );
+
+  n = strlen ( number ) - 1;
+
+	    
+  for (i = 0; number[i] ; i++ )  
+    if ( !(isdigit(number[i]) 
+           || number[i] == '.'
+	       || number[i] == ',') )
+      return ( _LET_FAIL );
+
+  ethioNumString = (unsigned short *) malloc ( (4*i+1) * sizeof (unsigned short) );  /* hopefully big enough... */
+
+  m = 0;
+
+  for ( place = 0; place <= n; place++ )
+    {
+
+      asciiTen = '0';
+      gezOne = gezTen = 0x0;
+      asciiOne = number[n-place]; 
+
+      place++;
+
+      if ( place <= n )
+          asciiTen = number[n-place]; 
+
+      if ( ( asciiOne == '0' && asciiTen == '0' ) && ( place < n ) )
+        continue;
+
+      /* We form a group if: 
+       *   1) the tens place is non zero.
+       *   2) the ones place is greater than one.
+       *   3) we are working on the first position group.
+       */
+      if ( asciiTen != '0' || asciiOne > '1'  || place == 1 )
+        {
+          if ( asciiOne != '0' )
+            gezOne = asciiOne + (ONE - '1');  /* map onto Ethiopic "ones" */
+
+          if ( asciiTen != '0' )
+            gezTen = asciiTen + (TEN - '1');  /* map onto Ethiopic "tens" */
+	    
+        }
+
+      if ( place > 1 )
+        {
+            for ( j=0; j < (place/4); j++ )
+              ethioNumString[m++] = TENTHOUSAND;
+
+            if ( (place/2)%2 )
+              ethioNumString[m++] = HUNDRED;
+        }
+
+      if ( gezOne )
+        ethioNumString[m++] = gezOne;
+
+      if ( gezTen )
+        ethioNumString[m++] = gezTen;
+
+    }
+
+  returnString = ( unsigned short * ) malloc ( (m+1) * sizeof (unsigned short) );
+
+  for (i=m; i>0; i--)
+    returnString[i-1] = ethioNumString[m-i];
+
+  returnString[m] = '\0';
+
+  free ( ethioNumString );
+
+  return ( returnString );
+
+}
