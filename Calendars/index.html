@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>The Ethiopic Calendar</title>
+  <style type="text/css">
+    table, th, td { border: 2px solid; }
+    th { text-align: center; background-color: #bfbfbf }
+    th.gold {background-color: #ddd9c3 }
+    td.divide { border-left: 1px solid black }
+    p { text-align:justify }
+    .example { text-indent: 40px }
+  </style>
+</head>
+<body>
+<h1>The Ethiopic Calendar</h1>
+
+<p>Localization in Ethiopia follows the usual pattern of translating terminologies, applying a keyboard for the writing system, applying collation and formatting rules, but to really get it right is a matter of time. Time localization is more than merely getting the format pattern right and GMT+3 set as the time zone –a virtually unknown offset from a reference point under some external system of reference. Ethiopia has its own system of reckoning that even the most advanced localization infrastructure is ill prepare to cope with. Think “time realm”, it’s easier to think of Ethiopia as existing outside of regular time as we know it.</p>
+
+<h3>Here comes the sun…</h3>
+
+<p>“The day starts with sunrise” is the conceptual basis for the clock in Ethiopia and many of its neighbors. Being near the equator this translates to roughly 6 AM each day with an even 12 hours of light and darkness with only a little seasonal drifting. A twelve hour clock is used that begins at “12 AM” with sunrise (aka 6 AM  in the West), reaches “noon” at “6 AM”, followed by “12 PM” 6 hours later and “6 PM” at “midnight”.  Think of it as a clock or watch with the “6” at the top and the “12” at the bottom.</p>
+
+<p>But doesn’t this convention break the notion of Ante and Post-Meridian? Meridian, shmidian … another external concept to break free from. “AM” and “PM” have been used in the previous example as a matter of convenience for comparison; the day in fact has 10 divisions:</p>
+
+<table>
+  <tr>
+    <th>Period</th><th>Name</th><th>24 Hour<br/>Example</th><th>Localized<br/>Example</th>
+  </tr>
+  <tr align="center">
+    <td>23:00 - 00:59</td>
+    <td>እኩለ ሌሊት<br/>(Ekul Leilit)</td>
+    <td>23:34 እኩለ ሌሊት</td>
+    <td>&nbsp;5:34 እኩለ ሌሊት</td>
+  </tr>
+  <tr align="center">
+    <td>01:00 - 03:59</td>
+    <td>ውደቀት<br/>(Wedek’et)</td>
+    <td>00:34 ውደቀት</td>
+    <td>&nbsp;6:34 ውደቀት</td>
+  </tr>
+  <tr align="center">
+    <td>04:00 - 05:59</td>
+    <td>ንጋት<br/>(Nigat)</td>
+    <td>04:34 ንጋት</td>
+    <td>10:34 ንጋት</td>
+  </tr>
+  <tr align="center">
+    <td>06:00 - 08:59</td>
+    <td>ጡዋት<br/>(T’uwat)</td>
+    <td>06:34 ጡዋት</td>
+    <td>12:34 ጡዋት</td>
+  </tr>
+  <tr align="center">
+    <td>09:00 - 11:59</td>
+    <td>ረፋድ<br/>(Refad)</td>
+    <td>09:34 ረፋድ</td>
+    <td>&nbsp;3:34 ረፋድ</td>
+  </tr>
+  <tr align="center">
+    <td>12:00 - 12:59</td>
+    <td>እኩለ ቀን<br/>(Ekul K’en)</td>
+    <td>12:34 እኩለ ቀን</td>
+    <td>&nbsp;6:34 እኩለ ቀን</td>
+  </tr>
+  <tr align="center">
+    <td>13:00 - 15:59</td>
+    <td>ከሰዓት በኋላ<br/>(Kese’at Behwala)</td>
+    <td>15:34 ከሰዓት በኋላ</td>
+    <td>&nbsp;9:34 ከሰዓት በኋላ</td>
+  </tr>
+  <tr align="center">
+    <td>16:00 - 17:59</td>
+    <td>ወደማታ<br/>(Wedemata)</td>
+    <td>16:34 ወደማታ</td>
+    <td>10:34 ወደማታ</td>
+  </tr>
+  <tr align="center">
+    <td>18:00 - 19:59</td>
+    <td>ሲደነግዝ<br/>(Sidenegiz)</td>
+    <td>18:34 ሲደነግዝ</td>
+    <td>12:34 ሲደነግዝ</td>
+  </tr>
+  <tr align="center">
+    <td>20:00 - 22:59</td>
+    <td>ምሽት<br/>(Mishet)</td>
+    <td>21:34 ምሽት</td>
+    <td>&nbsp;3:34 ምሽት</td>
+  </tr>
+</table>
+
+<p>To be sure the names and divisions are subject to change with sub-region. “AM” and “PM” are not entirely unknown either since technology items are largely imported, computer users are sure to have encountered them. But they are known to be a Western reference and are not used locally in discussing time. </p>
+
+<h3>13 Months of Sunshine</h3>
+<p>The calendar in Ethiopia has 13 months and the year is 7 years 8 months and 11 days behind the Gregorian calendar (12 days when a leap year occurs).  Which means that the year 2000 has only just occurred on September 12th of this year! But why? Many references will state that the Ethiopic calendar is based on the Julian, but this is only partly true.  The Ethiopic calendar descends more directly from the Coptic which in turn is a reformation of the ancient Egyptian solar calendar with respect to the Julian scheme also known as the “Alexandrian Calendar”.</p>
+
+<p>The ancient Egyptian solar calendar used a 365 day year with the year divided into 3 seasons of 120 days and each season into 4 months of 30 days.  Five corrective, or epagomenal, days were added at the end of the year.  The months were only numbered initially but later took on the corresponding month names from a second, lunar based calendar of Egypt. The month names under the lunar calendar derived their names from the major feast that would occur during the respective month. The problem with “calendar creep” was not addressed until the arrival of the Julian calendar in 46 BC with the introduction of an extra day for a “leap year”. The Coptic calendar applied the Julian leap year in 25 BC thus forever fixing the date synchronization between the two calendar systems.</p>
+
+<p>However, the Coptic and Ethiopic calendars do not apply the leap year correction rule where leap year is skipped every 100 years, except every 400 years, except (maybe) every 16,000 years. So “calendar creep” will continue between the Coptic, Ethiopic and Gregorian calendars.  Leap years however do not occur when the year is a multiple of 4, as with the Gregorian system, but will occur on the year prior. Thus 1999 was a leap year as will be 2003 and so on. The four year cycle is also enumerated with the names of the four Evangelists: Mateos, Markos, Luqas and Yohannes as they are known in Ethiopian Orthodox Church. Yohannes is the leap year and is considered the end of a four year cycle.</p>
+
+<p>Where the Coptic and Ethiopic calendars differ will be in the month names, which are language specific even within Ethiopia, as are the days of the week and day divisions. The other major difference is that the year in the Coptic calendar is presently 1724 some 276 years behind the Ethiopic.  The modern Coptic calendar’s origin, or epoch, is counted from the year 284 AD when many Coptic Christians were martyr under the rein of Roman Emperor Diocletian. So what accounts for the difference in the Ethiopic calendar versus the Gregorian? Popular legend has it that the 7 year, 8 month and 11 day difference is the time it took for the news of the Birth of Christ to reach Ethiopia. More likely the answer is that the Ethiopic calendar went through fewer reformations than did other calendar systems (notably skipping the reformation by Dionysius Exiguus in AD 525) which potentially makes it more in keeping with “actual time” since the birth of Christ. The truth is, we may never know.</p>
+
+
+<table>
+  <tr>
+    <th>Ethiopic<br/>(Amharic)</th>
+    <th>Ethiopic<br/>(Tigrinya)</th>
+    <th>Ethiopic<br/>(Ge’ez)</th>
+    <th>Coptic<br/>(Coptic/Arabic)</th>
+    <th>Gregorian<br/>(English)</th>
+  </tr>
+  <tr align="center">
+    <td>መስከረም<br/>(Meskerem)</td>
+    <td>መስከረም<br/>(Meskerem)</td>
+    <td>ከረመ<br/>(Kereme)</td>
+    <td>θοογτ / تﻮﺗ<br/>(Tout)</td>
+    <td>September 11/12</td>
+  </tr>
+  <tr align="center">
+    <td>ጥቅምት<br/>(T’ek’emt)</td>
+    <td>ጥቅመቲ<br/>(T’ek’emti)</td>
+    <td>ጠቀመ<br/> (T’ek’eme)</td>
+    <td>Παοπι / ﻪﺑﺎﺑ<br/>(Baba)</td>
+    <td>October 11/12</td>
+  </tr>
+  <tr align="center">
+    <td>ኅዳር<br/>(Hedar)</td>
+    <td>ሕዳር<br/>(Hedar)</td>
+    <td>ኀደረ<br/>(Hedere)</td>
+    <td>Αθορ / رﻮﺗﺎﻫ<br/>(Hator)</td>
+    <td>November 10/11</td>
+  </tr>
+  <tr align="center">
+    <td>ታኅሣሥ<br/>(Tahsas)</td>
+    <td>ታኅሳስ<br/>(Tahsas)</td>
+    <td>ኀሠሠ<br/>(Hasese)</td>
+    <td>Χοιακ / ﻚﻬﻴﻛ<br/>(Kiahk)</td>
+    <td>December 10/11</td>
+  </tr>
+  <tr align="center">
+    <td>ጥር<br/>(T’er)</td>
+    <td>ጥሪ<br/>(T’eri)</td>
+    <td>ጠሐር<br/>(T’eher)</td>
+    <td>Τωβι / طﻮﺒﻫ<br/>(Toba)</td>
+    <td>January 9/10</td>
+  </tr>
+  <tr align="center">
+    <td>የካቲት<br/>(Yekatit)</td>
+    <td>ለካቲት<br/>(Lekatit)</td>
+    <td>ከተተ<br/>(Ketete)</td>
+    <td>Μεϣιρ / ﺮﻴﺸﻣأ<br/>(Amshir)</td>
+    <td>February 8/9</td>
+  </tr>
+  <tr align="center">
+    <td>መጋቢት<br/>
+    (Megabit)</td>
+    <td>መጋቢት<br/>(Megabit)</td>
+    <td>መገበ<br/>(Megebe)</td>
+    <td>Παρεμϩατ / تﺎﻬﻣﺮﺑ<br/>(Baramhat)</td>
+    <td>March 10</td>
+  </tr>
+  <tr align="center">
+    <td>ሚያዝያ<br/>(Miazia)</td>
+    <td>ሚያዝያ<br/>(Miazia)</td>
+    <td>አኀዘ<br/>(Ahaze)</td>
+    <td>Φαρμοθι / دهﻮﻣﺮﺑ<br/>(Baramouda)</td>
+    <td>April 9</td>
+  </tr>
+  <tr align="center">
+    <td>ግንቦት<br/>(Genbot)</td>
+    <td>ግንቦት<br/>(Genbot)</td>
+    <td>ግንባት<br/>(Genbat)</td>
+    <td>Παϣαν / ﺲﻨﺸﺑ<br/>(Bashans)</td>
+    <td>May 5</td>
+  </tr>
+  <tr align="center">
+    <td>ሰኔ<br/>(Senei)</td>
+    <td>ሰነ<br/>(Sene)</td>
+    <td>ሠነየ<br/>(Seneye)</td>
+    <td>Παωνι / ﻪﻧؤﺑ<br/>(Paona)</td>
+    <td>June 6</td>
+  </tr>
+  <tr align="center">
+    <td>ሐምሌ<br/>(Hamlei)</td>
+    <td>ሓምለ<br/>(Hamle)</td>
+    <td>ሐመለ<br/>(Hamele)</td>
+    <td>Επηπ / ﺐﻴﺑأ<br/>(Epep)</td>
+    <td>July 8</td>
+  </tr>
+  <tr align="center">
+    <td>ነሐሴ<br/>(Nehassei)</td>
+    <td>ነሓሰ<br/>(Nehasse)</td>
+    <td>ነሐሰ<br/>(Nehasse)</td>
+    <td>Μεϲωρη / ىﺮﺴﻣ<br/>(Mesra)</td>
+    <td>August 8</td>
+  </tr>
+  <tr align="center">
+    <td>ጳጉሜን<br/>(Pagumein)</td>
+    <td>ጳጉሜን<br/>(Pagumein)</td>
+    <td>ጳጕሜን<br/>(Pagumein)</td>
+    <td>Πικογϫι μαβοτ / ﺮﻴﻐﺼﻟا ﺮﻬﺸﻟا<br/>(Nasie)</td>
+    <td>September 6</td>
+  </tr>
+</table>
+
+<p>If 13 months and 4 year names still isn’t enough for you, you’re in luck, there is still more to come.  Each of the 30 days of the month has a unique “Tabot”. A day tabot is usually a saint’s (e.g. Stephanos), angel’s (e.g. Gabriel), or some religious figure’s personal name that commemorates that given day. A person will typically want to know the tabot of the day and always knows the tabot for the day they were born –often times more so than the day numeric date. While not critical for a simple clock widget, the tabots, like the evangelists, are “nice to have” in calendar application.</p>
+
+<table>
+  <tr align="center">
+    <td>1<br/>ልደታ<br/>(Lideta)</td>
+    <td>2<br/>አባ፡ጉባ<br/>(Aba Guba)</td>
+    <td>3<br/>በእታ<br/>(Be’Eta)</td>
+    <td>4<br/>ዮሐንስ<br/>(Yohannes)</td>
+    <td>5<br/>አቦ<br/>(Abo)</td>
+    <td>6<br/>ኢያሱስ<br/>(Iyesus)</td>
+    <td>7<br/>ሥላሴ<br/>(Selassie)</td>
+  </tr>
+  <tr align="center">
+    <td>8<br/>አባ፡ኪሮስ<br/>(Aba Kiros)</td>
+    <td>9<br/>ቶማስ<br/>(Tomas)</td>
+    <td>10<br/>መስቀል<br/>(Meskel)</td>
+    <td>11<br/>ሐና፡ማርያም<br/>(Hana Mariam)</td>
+    <td>12<br/>ሚካኤል<br/>(Michael)</td>
+    <td>13<br/>እግዚሐር፡አብ<br/>(Egziher Ab)</td>
+    <td>14<br/>አቡነ፡አረጋዊ<br/>(Abune Aregawi)</td>
+  </tr>
+  <tr align="center">
+    <td>15<br/>ቂርቆስ<br/>(K’irk’os)</td>
+    <td>16<br/>ኪዳነ፡ምሕረት<br/>(Kidane Mihret)</td>
+    <td>17<br/>እስጢፋኖስ<br/>(Est’ifanos)</td>
+    <td>18<br/>ተክለ፡አልፋ<br/>(Tekle Alfa)</td>
+    <td>19<br/>ገብርኤል<br/>(Gabriel)</td>
+    <td>20<br/>ሕንፅተ<br/>(Hintsite)</td>
+    <td>21<br/>ማርያም<br/>(Mariam)</td>
+  </tr>
+  <tr align="center">
+    <td>22<br/>ኡራኤል<br/>(Ura’el)</td>
+    <td>23<br/>ጊዮርጊስ<br/>(Giorgis)</td>
+    <td>24<br/>ተክለ፡ሐይማኖት<br/>(Tekle Haimanot)</td>
+    <td>25<br/>መርቆርዮስ<br/>(Merk’orios)</td>
+    <td>26<br/>ዮሴፍ<br/>(Yosef)</td>
+    <td>27<br/>መድኀኔ፡ዓለም<br/>(Medhani Alem)</td>
+    <td>28<br/>አማኑኤል<br/>(Amanu’el)</td>
+  </tr>
+  <tr align="center">
+    <td>29<br/>ባለ፡እግዚአብሔር<br/>(Bale Egziabeir)</td>
+    <td>30<br/>ማርቆስ<br/>(Mark’os)</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+<p>While Ethiopia has caught up to the 21st century (ok, maybe not really until 2001), it is also in the 75th. The convention of using the birth of Christ as an epoch is something relatively new in Ethiopia and was not in common practice until around the turn of the last century. Before then, the years were referenced from the creation of the world – 5,500 years before the birth of Christ. Thus it is also the year 7500 and the calendar system does not have a year zero or use negative numbers.  Rather, what happens at the year zero is that the reference era will switch back to the creation of the world.  That is at 0 ዓ/ም (ዓመተ፡ምሕረት or “Amete Mihret” for “Year of Grace”) will become 5501 ዓ/ዓ (ዓመተ፡ዓለም or “Amete Alem” for “Year of the World”).  And what about 7,501 years ago? Well, time before the creation of the world is not something man can sensibly contemplate in the Christian tradition.  But if one must, a foreign calendar is suitable.</p>
+
+<h3>Presentation</h3>
+<p>The presentation of Ethiopic dates is for the most part straight forward with the added twist of the <a href="http://ethiopic.org/Numerals/">Ethiopic numeral system</a>.  By default the Ethiopic year should be presented in the Ethiopic numeral system while the day of the week is given in western digits. This is the prevalent convention found in Ethiopian newspapers but the choice of numeral systems for both the day and year should be left independently configurable to a user’s personal tastes. A date and time presentation may then render as:</p>
+<p class="example">
+ማክሰኞ፣ ጥቅምት 11 ቀን 10:15:44 ነጋት EAT ፲፱፻፺፯ ዓ/ም
+</p>
+
+<p>Which applies the date-time pattern:</p>
+<p class="example">
+DAY፣ MONTH &lt;d&gt; ቀን hh:mm:ss a Z &lt;yyyy&gt; G
+</p>
+
+<p>Where &lt;d&gt; and &lt;yyyy&gt; are may be configured in either the Ethiopic or western numeral systems.  A maximally formatted date, incorporating the tabot and evangelist could be given as:</p>
+<p class="example">
+ማክሰኞ፣ ጥቅምት 11 ቀን (ሐና፡ማርያም) 10:15:44 ነጋት EAT ፲፱፻፺፯ (ማቴዎስ) ዓ/ም
+</p>
+
+<p>While on the topic of numbers and presentation, it is also worth noting that the Ethiopic Millennium is sometimes abbreviated to “፪ሺ”, short for “two thousand” in the Amharic language and is analogous to “2k” in English. Two thousand in the Ethiopic numeral system is given by the sequence twenty-hundred or ፳፻.</p>
+
+<h3>Calendar conversion</h3>
+<p>Conversion to and from the Ethiopic and Coptic calendar systems is easily done through a Julian Day Number (JDN).  Julian Day Numbers are the number of elapsed days since the Julian epoch (January 1, 4713 BC) and have been used for centuries as a common reference point for calendar conversions. Drs. Berhanu Beyene and Manfred Kudlek developed JDN formulas for the Ethiopic and Coptic calendars in the paper “Calendars in Ethiopia” presented at the International Conference of Ethiopian Studies XV. Many algorithms can be found with a simple web search to convert the Gregorian calendar to and from a JDN so we will not detail it here, the Beyene-Kudlek algorithm is summarized in the following:</p>
+
+
+<table>
+  <tr>
+    <th colspan="2">Mathematical Expressions:</th>
+  </tr>
+  <tr>
+    <th class="gold">Julian Day Number from Calendar Date</th>
+    <th class="gold">Calendar Date from Julian Day Number</th>
+  </tr>
+  <tr>
+    <td>
+<div style="margin-left: 40px">
+      <em>Ethiopic: j<sub>offset</sub></em> = 1723856<br/>
+      <em>Coptic  : j<sub>offset</sub></em> = 1824665<br/>
+      <em>n</em> = 30 (<em>month</em> - 1) + <em>day</em> - 1<br/>
+      <em>j = j<sub>offset</sub></em> + 365 (<em>year</em> - 1) + ⌊<em>year</em>/4⌋ + <em>n</em>
+</div>
+    </td>
+    <td>
+<div style="margin-left: 40px">
+      <em>r = mod( (j - j<sub>offset</sub>),</em> 1461 <em>)</em><br/>
+      <em>n = mod(r,</em>365<em>)</em> + 365⌊<em>r</em>/1460⌋<br/>
+      <br/>
+      <em>year</em>  = 4 ⌊(j - j<sub>offset</sub>)/1461⌋ + ⌊<em>r</em>/365⌋ - ⌊<em>r</em>/1460⌋<br/>
+      <em>month</em> = ⌊<em>n</em>/30⌋ + 1<br/>
+      <em>day</em>   = <em>mod(n,</em>30<em>)</em> + 1
+</div>
+    </td>
+  </tr>
+  <tr>
+    <th colspan="2">Pseudo Code:</th>
+  </tr>
+  <tr>
+    <th class="gold">Julian Day Number from Calendar Date</th>
+    <th class="gold">Calendar Date from Julian Day Number</th>
+  </tr>
+  <tr>
+    <td><pre>
+       jdn = ( jdOffset + 365 )
+           + 365 * ( year - 1 )
+           + quotient( year, 4 )
+           + 30 * month
+           + day - 31
+           ;
+    </pre></td>
+    <td><pre>
+       r = mod( (jdn – jdOffset), 1461 ) ;
+       n = mod( r, 365 ) + 365 * quotient( r, 1460 ) ; 
+       year = 4 * quotient( (jdn - jdOffset), 1461 )
+            + quotient( r, 365 )
+            - quotient( r, 1460 )
+            ;
+       month = quotient( n, 30 ) + 1 ;
+       day   = mod( n, 30 ) + 1 ;
+    </pre></td>
+  <tr>
+    <th colspan="2">Utility Functions:</th>
+  </tr>
+  <tr>
+    <td><pre>
+     mod( i, j ) {
+       return  i – ( j * quotient( i, j ) ) ;
+     }
+    </pre></td>
+    <td><pre>
+      quotient( i, j ) {
+        return  floor( i / j ) ;
+      }
+    </pre></td>
+  </tr>
+</table>
+
+<h3>Software resources</h3>
+<p>The International Components for Unicode (ICU at http://icu.sf.net) project applies the Beyene-Kudlek algorithms to support the Coptic and Ethiopic calendar systems. ICU also provides support and conversion between many other calendar systems as well such as Chinese, Gregorian, Hebrew, Islamic and Japanese calendars. Date and time formatting services are also provided. ICU is the best place to start for Ethiopic language localization but if you want to fully localize for time concepts, plan to add your own extensions for the additional day divisions, the offset clock and Ethiopic numerals.</p>
+
+<p>ICU is so richly featured that it can be overkill when all you want is a simple calendar conversion code snippet, or not applicable when you need an algorithm in an unsupported language like JavaScript. In these cases head over to http://ethiopic.org/Calendars/ for standalone code fragments and an explanation of the algorithm.</p>
+
+<p>The Ethiopic calendar is the official calendar of Ethiopia and as it was in Eritrea until recently –while remaining central to the Eritrean Orthodox Church. Localization for the Ethiopic calendar however is just the entry point into this time realm –it is not the only calendar of Ethiopia! The Siltie, Oromo and Borena peoples all have traditional calendars still in use for ceremonial purposes. The Sidama people use an interesting five day based week system… but these are temporal adventures we’ll leave for another day.</p>
+
+<hr size="2">
+
+<div align="right">
+Implementations in: Java [<a href="EthiopicCalendar.java">Source</a> | <a href="EthiopicCalendarTest.java">Test</a> ]
+</div>
+</body>
+</html>
