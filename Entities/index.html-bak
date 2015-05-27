@@ -1,0 +1,1116 @@
+<html>
+<head>
+  <title>Ethiopic IM Tables for Amharic</title>
+  <META HTTP-EQUIV="content-type" content="text-html; charset=utf-8">
+</head>
+<body bgcolor="#fffffh">
+
+
+<h1><u>Ethiopic Entity Names</u></h1>
+
+<ul>
+  <li>Put a master unicode table here.
+  <li>explain "why use ge'ez" names.
+</ul>
+
+<p align="justify">
+</p>
+
+<hr size="2">
+
+<h1><u>Derivation of Names</u></h1>
+
+<ul>
+  <li>Mention relationship to Hebrew
+  <li>Get a formal bibliography
+</ul>
+
+
+<p align="justify">
+</p>
+
+<table border>
+
+<tr align="center">
+  <th>1548 Rome (Dillman 1899)</th>
+  <th>አባ ጎርጎሪኦስ<br>1661</th>
+  <th>Praetorius<br>1879</th>
+  <th>Dillman/Criton</th>
+  <th>መዝገበ ፊደል<br>1934</th>
+  <th>Chaine<br>1938</th>
+  <th>መጽሔት፡ጥበብ<br>1948</th>
+  <th>ደስታ፡ተክለ፡ወልድ<br>1948</th>
+  <th>HIM Dictionary</th>
+  <th>Average</th>
+  <th>Entity</th>
+</tr>
+
+<tr align="center">
+  <td>ሀውይ</td>
+  <td>ሆይ</td>
+  <td>ሆይ</td>
+  <td>ሆይ</td>
+  <td>ሆይ (ሀውይ)</td>
+  <td>ሆይ</td>
+  <td>ሆይ</td>
+  <td>ሆይ</td>
+  <td>ሆይ</td>
+  <th>ሆይ</th>
+  <th>Hoy</th>
+</tr>
+
+<tr align="center">
+  <td>ለው</td>
+  <td>ላዊ</td>
+  <td>ለው</td>
+  <td>ለው</td>
+  <td>ላዊ፡(ላውይ)</td>
+  <td>ላዊ</td>
+  <td>ላዊ፡(ለው)</td>
+  <td>ላዊ</td>
+  <td>ላዊ ለው</td>
+  <th>ላዊ</th>
+  <th>Lawi</th>
+</tr>
+
+<tr align="center">
+  <td>ሐውት</td>
+  <td>ሐውት</td>
+  <td>ሐውት</td>
+  <td>ሐውት</td>
+  <td>ሐው(ይ)ት</td>
+  <td>ሓውት</td>
+  <td>ሐውት፡(ሑት)</td>
+  <td>ሐውት</td>
+  <td>ሐውት</td>
+  <th>ሐውት</th>
+  <th>Hawt</th>
+</tr>
+
+<tr align="center">
+  <td>መይ</td>
+  <td>መይ</td>
+  <td>ማይ</td>
+  <td>ማይ</td>
+  <td>ማይ፡(ሜም)</td>
+  <td>ማይ</td>
+  <td>ማይ፡(ሜም)</td>
+  <td>ማይ</td>
+  <td>ማይ</td>
+  <th>መይ</th>
+  <th>Mey</th>
+</tr>
+
+<tr align="center">
+  <td>ሠውት</td>
+  <td>ሠውት</td>
+  <td>ሠውት</td>
+  <td>ሠውት</td>
+  <td>ሠውት፡(ሠዊት)</td>
+  <td>ሣውት</td>
+  <td>ሣውት፡(ሠውት)</td>
+  <td>ሠውት</td>
+  <td>ሠውት</td>
+  <th>ሠውት</th>
+  <th>Sewt</th>
+</tr>
+
+<tr align="center">
+  <td>ረእስ</td>
+  <td>ርእስ</td>
+  <td>ርእስ</td>
+  <td>ርእስ</td>
+  <td>ርእስ</td>
+  <td>ርእስ</td>
+  <td>ርእስ፡(ርዕስ)</td>
+  <td>ርእስ</td>
+  <td>ርእስ</td>
+  <th>ርእስ</th>
+  <th>Ris</th>
+</tr>
+
+<tr align="center">
+  <td>ሶት</td>
+  <td>ሳት</td>
+  <td>ሳት</td>
+  <td>ሳት</td>
+  <td>ሳት፡(ሰዓት)</td>
+  <td>ሳት</td>
+  <td>ሳት፡(እሳት)</td>
+  <td>ሳት፡(ሰዓት)</td>
+  <td>ሳት</td>
+  <th>ሳት</th>
+  <th>Sat</th>
+</tr>
+
+<tr align="center">
+  <td>ቀፍ</td>
+  <td>ቀፍ</td>
+  <td>ቃፍ</td>
+  <td>ቃፍ</td>
+  <td>ቆፍ</td>
+  <td>ቃፍ</td>
+  <td>ቃፍ፡(ቆፍ)</td>
+  <td>ቆፍ</td>
+  <td>ቃፍ</td>
+  <th>ቃፍ</th>
+  <th>Qaf</th>
+</tr>
+
+<tr align="center">
+  <td>ቤት</td>
+  <td>ቤት</td>
+  <td>ቤት</td>
+  <td>ቤት</td>
+  <td>ቤት</td>
+  <td>ቤት</td>
+  <td>ቤት</td>
+  <td>ቤት</td>
+  <td>ቤት</td>
+  <th>ቤት</th>
+  <th>Bet</th>
+</tr>
+
+<tr align="center">
+  <td>ተው</td>
+  <td>ተዊ</td>
+  <td>ተው</td>
+  <td>ተው</td>
+  <td>ታው፡(ታዊ)</td>
+  <td>ታዊ</td>
+  <td>ታዊ፡(ታው)</td>
+  <td>ታው</td>
+  <td>ታው</td>
+  <th>ታው</th>
+  <th>taw</th>
+</tr>
+
+<tr align="center">
+  <td>ኀርም</td>
+  <td>ኀርም</td>
+  <td>ኀርም</td>
+  <td>ኀርም</td>
+  <td>ኀርም</td>
+  <td>ኀርም</td>
+  <td>ኀርም</td>
+  <td>omitted</td>
+  <td>ኀርም</td>
+  <th>ኀርም</th>
+  <th>Harm</th>
+</tr>
+
+<tr align="center">
+  <td>ናኀስ</td>
+  <td>ናኀስ</td>
+  <td>ነሃስ</td>
+  <td>ነሃስ</td>
+  <td>ነሐስ፡(ናስ)</td>
+  <td>ነሃስ</td>
+  <td>ነሐስ፡(ኑን)</td>
+  <td>ነሐስ</td>
+  <td>ነሐስ</td>
+  <th>ነሐስ</th>
+  <th>Nehes</th>
+</tr>
+
+<tr align="center">
+  <td>አልፍ</td>
+  <td>አልፍ</td>
+  <td>አልፍ</td>
+  <td>አልፍ</td>
+  <td>አልፍ</td>
+  <td>አልፍ</td>
+  <td>አልፍ</td>
+  <td>አልፍ</td>
+  <td>አልፍ</td>
+  <th>አልፍ</th>
+  <th>Alef</th>
+</tr>
+
+<tr align="center">
+  <td>ከፍ</td>
+  <td>ከፍ</td>
+  <td>ካፍ</td>
+  <td>ከፍ፡(ካፍ)</td>
+  <td>ካፍ</td>
+  <td>ካፍ</td>
+  <td>ካፍ</td>
+  <td>ካፍ</td>
+  <td>ካፍ</td>
+  <th>ካፍ</th>
+  <th>Kaf</th>
+</tr>
+
+<tr align="center">
+  <td>ወዌ</td>
+  <td>ወዌ</td>
+  <td>ወዌ</td>
+  <td>ወዌ፡(ዋዌ)</td>
+  <td>ዋዌ፡(ዋው)</td>
+  <td>ዋዊ</td>
+  <td>ዋዊ፡(ዋው)</td>
+  <td>ዋዌ</td>
+  <td>ዋው</td>
+  <th>ወዌ</th>
+  <th>Wewe</th>
+</tr>
+
+<tr align="center">
+  <td>ዐይን</td>
+  <td>ዐይን</td>
+  <td>ዐይን</td>
+  <td>ዐይን</td>
+  <td>ዐይን</td>
+  <td>ዓይን</td>
+  <td>ዐይን</td>
+  <td>ዐይን</td>
+  <td>ዐይን</td>
+  <th>ዐይን</th>
+  <th>Ayin</th>
+</tr>
+
+<tr align="center">
+  <td>ዘይ</td>
+  <td>ዘይ</td>
+  <td>ዘይ</td>
+  <td>ዘይ</td>
+  <td>ዛይ፡(ዛይን)</td>
+  <td>ዘይ</td>
+  <td>ዘይ፡(ዛይ)</td>
+  <td>ዛይ</td>
+  <td>ዘይ</td>
+  <th>ዘይ</th>
+  <th>Zey</th>
+</tr>
+
+<tr align="center">
+  <td>የመን</td>
+  <td>የመነ</td>
+  <td>የመን</td>
+  <td>የመን፡(የማን)</td>
+  <td>የማን</td>
+  <td>የመን</td>
+  <td>የማን</td>
+  <td>የማን</td>
+  <td>የመን</td>
+  <th>የመን</th>
+  <th>Yemen</th>
+</tr>
+
+<tr align="center">
+  <td>ድንት</td>
+  <td>ድንት</td>
+  <td>ደንት</td>
+  <td>ድንት፡(ደንት)</td>
+  <td>ድ(ን)ልት</td>
+  <td>ደንት</td>
+  <td>ድንት</td>
+  <td>ድልት</td>
+  <td>ድንት</td>
+  <th>ድንት</th>
+  <th>Dint</th>
+</tr>
+
+<tr align="center">
+  <td>ገምል</td>
+  <td>ግምል</td>
+  <td>ገምል</td>
+  <td>ገምል</td>
+  <td>ገምል</td>
+  <td>ገምል</td>
+  <td>ገምል፡(ጊሜል)</td>
+  <td>ገምል</td>
+  <td>ገምል</td>
+  <th>ገምል</th>
+  <th>Gemel</th>
+</tr>
+
+<tr align="center">
+  <td>ጣይት</td>
+  <td>ጠይት</td>
+  <td>ጠይት</td>
+  <td>ጣይት</td>
+  <td>ጠይት</td>
+  <td>ጣይት</td>
+  <td>ጠይት</td>
+  <td>ጣይት</td>
+  <td>ጠይት</td>
+  <th>ጠይት</th>
+  <th>Teyt</th>
+</tr>
+
+<tr align="center">
+  <td>ጰይት</td>
+  <td>ጰይት</td>
+  <td>ጰይት</td>
+  <td>ጰይት</td>
+  <td>ጰይት፡(ጴት)</td>
+  <td>ጰይት</td>
+  <td>ጰይት</td>
+  <td>omitted</td>
+  <td>ጳይት</td>
+  <th>ጰይት</th>
+  <th>Peyt</th>
+</tr>
+
+<tr align="center">
+  <td>ጸደይ</td>
+  <td>ጸደይ</td>
+  <td>ጸደይ</td>
+  <td>ጸዳይ</td>
+  <td>ጸደይ</td>
+  <td>ጸዳይ</td>
+  <td>ጸደይ</td>
+  <td>ጸደይ</td>
+  <td>ጸደይ</td>
+  <th>ጸደይ</th>
+  <th>Sedey</th>
+</tr>
+
+<tr align="center">
+  <td>ጸጰ</td>
+  <td>ፀጳ</td>
+  <td>ፀጳ</td>
+  <td>ፀጳ</td>
+  <td>ፀጰ(ፀጳ)</td>
+  <td>ፀጳ</td>
+  <td>ፀጳ</td>
+  <td>omitted</td>
+  <td>ጸሐ</td>
+  <th>ፀጳ</th>
+  <th>Sepa</th>
+</tr>
+
+<tr align="center">
+  <td>አፍ</td>
+  <td>አፍ</td>
+  <td>አፍ</td>
+  <td>አፍ</td>
+  <td>ፈፍ፡(ፌ)</td>
+  <td>አፍ</td>
+  <td>አፍ፡(ፌ)</td>
+  <td>ፈፍ</td>
+  <td>ፈፍ</td>
+  <th>አፍ</th>
+  <th>Af</th>
+</tr>
+
+<tr align="center">
+  <td>ፐሰ</td>
+  <td>ፕሳ</td>
+  <td>ፕስ</td>
+  <td>ፐ፡(ፐሰ)</td>
+  <td>ፒ፡(ፔ)</td>
+  <td>ፐ</td>
+  <td>ፒ</td>
+  <td>omitted</td>
+  <td>omitted</td>
+  <th>ፕሳ</th>
+  <th>Psa</th>
+</tr>
+
+</table>
+
+<h3><u>Basic Ge'ez Letters</u></h3>
+
+<p align="justify">
+</p>
+
+<table border>
+  <tr align="center">
+    <th>&nbsp;</th>
+    <th>ግዕዝ<br>Ge'ez</th>
+    <th>ካዕብ<br>Kaib</th>
+    <th>ሣልስ<br>Salis</th>
+    <th>ራዕብ<br>Rabi</th>
+    <th>ኃምስ<br>Hamis</th>
+    <th>ሳድስ<br>Sadis</th>
+    <th>ሳብዕ<br>Sabi</th>
+  </tr>
+  <tr align="center">
+    <th>ሆይ<br>Hoy</th>
+    <td>ሀ<br>ሆይ-ግዕዝ<br>hoy-geez</td>
+    <td>ሁ<br>ሆይ-ካዕብ<br>hoy-kaib</td>
+    <td>ሂ<br>ሆይ-ሣልስ<br>hoy-salis</td>
+    <td>ሃ<br>ሆይ-ራዕብ<br>hoy-rabi</td>
+    <td>ሄ<br>ሆይ-ኃምስ<br>hoy-hamis</td>
+    <td>ህ<br>ሆይ-ሳድስ<br>hoy-sadis</td>
+    <td>ሆ<br>ሆይ-ሳብዕ<br>hoy-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ላዊ<br>Lawi</th>
+    <td>ለ<br>ላዊ-ግዕዝ<br>lawi-geez</td>
+    <td>ሉ<br>ላዊ-ካዕብ<br>lawi-kaib</td>
+    <td>ሊ<br>ላዊ-ሣልስ<br>lawi-salis</td>
+    <td>ላ<br>ላዊ-ራዕብ<br>lawi-rabi</td>
+    <td>ሌ<br>ላዊ-ኃምስ<br>lawi-hamis</td>
+    <td>ል<br>ላዊ-ሳድስ<br>lawi-sadis</td>
+    <td>ሎ<br>ላዊ-ሳብዕ<br>lawi-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ሐውት<br>Hawt</th>
+    <td>ሐ<br>ሐውት-ግዕዝ<br>hawt-geez</td>
+    <td>ሑ<br>ሐውት-ካዕብ<br>hawt-kaib</td>
+    <td>ሒ<br>ሐውት-ሣልስ<br>hawt-salis</td>
+    <td>ሓ<br>ሐውት-ራዕብ<br>hawt-rabi</td>
+    <td>ሔ<br>ሐውት-ኃምስ<br>hawt-hamis</td>
+    <td>ሕ<br>ሐውት-ሳድስ<br>hawt-sadis</td>
+    <td>ሖ<br>ሐውት-ሳብዕ<br>hawt-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>መይ<br>Mey</th>
+    <td>መ<br>መይ-ግዕዝ<br>mey-geez</td>
+    <td>ሙ<br>መይ-ካዕብ<br>mey-kaib</td>
+    <td>ሚ<br>መይ-ሣልስ<br>mey-salis</td>
+    <td>ማ<br>መይ-ራዕብ<br>mey-rabi</td>
+    <td>ሜ<br>መይ-ኃምስ<br>mey-hamis</td>
+    <td>ም<br>መይ-ሳድስ<br>mey-sadis</td>
+    <td>ሞ<br>መይ-ሳብዕ<br>mey-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ሠውት<br>Sewt</th>
+    <td>ሠ<br>ሠውት-ግዕዝ<br>sewt-geez</td>
+    <td>ሡ<br>ሠውት-ካዕብ<br>sewt-kaib</td>
+    <td>ሢ<br>ሠውት-ሣልስ<br>sewt-salis</td>
+    <td>ሣ<br>ሠውት-ራዕብ<br>sewt-rabi</td>
+    <td>ሤ<br>ሠውት-ኃምስ<br>sewt-hamis</td>
+    <td>ሥ<br>ሠውት-ሳድስ<br>sewt-sadis</td>
+    <td>ሦ<br>ሠውት-ሳብዕ<br>sewt-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ርእስ<br>Ris</th>
+    <td>ረ<br>ርእስ-ግዕዝ<br>ris-geez</td>
+    <td>ሩ<br>ርእስ-ካዕብ<br>ris-kaib</td>
+    <td>ሪ<br>ርእስ-ሣልስ<br>ris-salis</td>
+    <td>ራ<br>ርእስ-ራዕብ<br>ris-rabi</td>
+    <td>ሬ<br>ርእስ-ኃምስ<br>ris-hamis</td>
+    <td>ር<br>ርእስ-ሳድስ<br>ris-sadis</td>
+    <td>ሮ<br>ርእስ-ሳብዕ<br>ris-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ሳት<br>Sat</th>
+    <td>ሰ<br>ሳት-ግዕዝ<br>sat-geez</td>
+    <td>ሱ<br>ሳት-ካዕብ<br>sat-kaib</td>
+    <td>ሲ<br>ሳት-ሣልስ<br>sat-salis</td>
+    <td>ሳ<br>ሳት-ራዕብ<br>sat-rabi</td>
+    <td>ሴ<br>ሳት-ኃምስ<br>sat-hamis</td>
+    <td>ስ<br>ሳት-ሳድስ<br>sat-sadis</td>
+    <td>ሶ<br>ሳት-ሳብዕ<br>sat-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ቃፍ<br>Qaf</th>
+    <td>ቀ<br>ቃፍ-ግዕዝ<br>qaf-geez</td>
+    <td>ቁ<br>ቃፍ-ካዕብ<br>qaf-kaib</td>
+    <td>ቂ<br>ቃፍ-ሣልስ<br>qaf-salis</td>
+    <td>ቃ<br>ቃፍ-ራዕብ<br>qaf-rabi</td>
+    <td>ቄ<br>ቃፍ-ኃምስ<br>qaf-hamis</td>
+    <td>ቅ<br>ቃፍ-ሳድስ<br>qaf-sadis</td>
+    <td>ቆ<br>ቃፍ-ሳብዕ<br>qaf-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ቤት<br>Bet</th>
+    <td>በ<br>ቤት-ግዕዝ<br>bet-geez</td>
+    <td>ቡ<br>ቤት-ካዕብ<br>bet-kaib</td>
+    <td>ቢ<br>ቤት-ሣልስ<br>bet-salis</td>
+    <td>ባ<br>ቤት-ራዕብ<br>bet-rabi</td>
+    <td>ቤ<br>ቤት-ኃምስ<br>bet-hamis</td>
+    <td>ብ<br>ቤት-ሳድስ<br>bet-sadis</td>
+    <td>ቦ<br>ቤት-ሳብዕ<br>bet-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ታው<br>Taw</th>
+    <td>ተ<br>ታው-ግዕዝ<br>taw-geez</td>
+    <td>ቱ<br>ታው-ካዕብ<br>taw-kaib</td>
+    <td>ቲ<br>ታው-ሣልስ<br>taw-salis</td>
+    <td>ታ<br>ታው-ራዕብ<br>taw-rabi</td>
+    <td>ቴ<br>ታው-ኃምስ<br>taw-hamis</td>
+    <td>ት<br>ታው-ሳድስ<br>taw-sadis</td>
+    <td>ቶ<br>ታው-ሳብዕ<br>taw-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ኀርም<br>Harm</th>
+    <td>ኀ<br>ኀርም-ግዕዝ<br>harm-geez</td>
+    <td>ኁ<br>ኀርም-ካዕብ<br>harm-kaib</td>
+    <td>ኂ<br>ኀርም-ሣልስ<br>harm-salis</td>
+    <td>ኃ<br>ኀርም-ራዕብ<br>harm-rabi</td>
+    <td>ኄ<br>ኀርም-ኃምስ<br>harm-hamis</td>
+    <td>ኅ<br>ኀርም-ሳድስ<br>harm-sadis</td>
+    <td>ኆ<br>ኀርም-ሳብዕ<br>harm-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ነሐስ<br>Nahes</th>
+    <td>ነ<br>ነሐስ-ግዕዝ<br>nehas-geez</td>
+    <td>ኑ<br>ነሐስ-ካዕብ<br>nehas-kaib</td>
+    <td>ኒ<br>ነሐስ-ሣልስ<br>nehas-salis</td>
+    <td>ና<br>ነሐስ-ራዕብ<br>nehas-rabi</td>
+    <td>ኔ<br>ነሐስ-ኃምስ<br>nehas-hamis</td>
+    <td>ን<br>ነሐስ-ሳድስ<br>nehas-sadis</td>
+    <td>ኖ<br>ነሐስ-ሳብዕ<br>nehas-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>አልፍ<br>Alef</th>
+    <td>አ<br>አልፍ-ግዕዝ<br>alef-geez</td>
+    <td>ኡ<br>አልፍ-ካዕብ<br>alef-kaib</td>
+    <td>ኢ<br>አልፍ-ሣልስ<br>alef-salis</td>
+    <td>አ<br>አልፍ-ራዕብ<br>alef-rabi</td>
+    <td>ኤ<br>አልፍ-ኃምስ<br>alef-hamis</td>
+    <td><br>አልፍ-ሳድስ<br>alef-sadis</td>
+    <td>ኦ<br>አልፍ-ሳብዕ<br>alef-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ካፍ<br>Kaf</th>
+    <td>ከ<br>ካፍ-ግዕዝ<br>kaf-geez</td>
+    <td>ኩ<br>ካፍ-ካዕብ<br>kaf-kaib</td>
+    <td>ኪ<br>ካፍ-ሣልስ<br>kaf-salis</td>
+    <td>ካ<br>ካፍ-ራዕብ<br>kaf-rabi</td>
+    <td>ኬ<br>ካፍ-ኃምስ<br>kaf-hamis</td>
+    <td>ክ<br>ካፍ-ሳድስ<br>kaf-sadis</td>
+    <td>ኮ<br>ካፍ-ሳብዕ<br>kaf-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ወዌ<br>Wewe</th>
+    <td>ወ<br>ወዌ-ግዕዝ<br>wewe-geez</td>
+    <td>ዉ<br>ወዌ-ካዕብ<br>wewe-kaib</td>
+    <td>ዊ<br>ወዌ-ሣልስ<br>wewe-salis</td>
+    <td>ዋ<br>ወዌ-ራዕብ<br>wewe-rabi</td>
+    <td>ዌ<br>ወዌ-ኃምስ<br>wewe-hamis</td>
+    <td>ው<br>ወዌ-ሳድስ<br>wewe-sadis</td>
+    <td>ዎ<br>ወዌ-ሳብዕ<br>wewe-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ዐይን<br>Ayin</th>
+    <td>ዐ<br>ዐይን-ግዕዝ<br>eyn-geez</td>
+    <td>ዑ<br>ዐይን-ካዕብ<br>eyn-kaib</td>
+    <td>ዒ<br>ዐይን-ሣልስ<br>eyn-salis</td>
+    <td>ዓ<br>ዐይን-ራዕብ<br>eyn-rabi</td>
+    <td>ዔ<br>ዐይን-ኃምስ<br>eyn-hamis</td>
+    <td><br>ዐይን-ሳድስ<br>eyn-sadis</td>
+    <td>ዖ<br>ዐይን-ሳብዕ<br>eyn-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ዘይ<br>Zey</th>
+    <td>ዘ<br>ዘይ-ግዕዝ<br>zey-geez</td>
+    <td>ዙ<br>ዘይ-ካዕብ<br>zey-kaib</td>
+    <td>ዚ<br>ዘይ-ሣልስ<br>zey-salis</td>
+    <td>ዛ<br>ዘይ-ራዕብ<br>zey-rabi</td>
+    <td>ዜ<br>ዘይ-ኃምስ<br>zey-hamis</td>
+    <td>ዝ<br>ዘይ-ሳድስ<br>zey-sadis</td>
+    <td>ዞ<br>ዘይ-ሳብዕ<br>zey-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>የመን<br>Yemen</th>
+    <td>የ<br>የመን-ግዕዝ<br>yemen-geez</td>
+    <td>ዩ<br>የመን-ካዕብ<br>yemen-kaib</td>
+    <td>ዪ<br>የመን-ሣልስ<br>yemen-salis</td>
+    <td>ያ<br>የመን-ራዕብ<br>yemen-rabi</td>
+    <td>ዬ<br>የመን-ኃምስ<br>yemen-hamis</td>
+    <td>ይ<br>የመን-ሳድስ<br>yemen-sadis</td>
+    <td>ዮ<br>የመን-ሳብዕ<br>yemen-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ድንት<br>Dint</th>
+    <td>ደ<br>ድንት-ግዕዝ<br>dint-geez</td>
+    <td>ዱ<br>ድንት-ካዕብ<br>dint-kaib</td>
+    <td>ዲ<br>ድንት-ሣልስ<br>dint-salis</td>
+    <td>ዳ<br>ድንት-ራዕብ<br>dint-rabi</td>
+    <td>ዴ<br>ድንት-ኃምስ<br>dint-hamis</td>
+    <td>ድ<br>ድንት-ሳድስ<br>dint-sadis</td>
+    <td>ዶ<br>ድንት-ሳብዕ<br>dint-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ገምል<br>Gemel</th>
+    <td>ገ<br>ገምል-ግዕዝ<br>gemel-geez</td>
+    <td>ጉ<br>ገምል-ካዕብ<br>gemel-kaib</td>
+    <td>ጊ<br>ገምል-ሣልስ<br>gemel-salis</td>
+    <td>ጋ<br>ገምል-ራዕብ<br>gemel-rabi</td>
+    <td>ጌ<br>ገምል-ኃምስ<br>gemel-hamis</td>
+    <td>ግ<br>ገምል-ሳድስ<br>gemel-sadis</td>
+    <td>ጎ<br>ገምል-ሳብዕ<br>gemel-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ጠይት<br>Teyt</th>
+    <td>ጠ<br>ጠይት-ግዕዝ<br>teyt-geez</td>
+    <td>ጡ<br>ጠይት-ካዕብ<br>teyt-kaib</td>
+    <td>ጢ<br>ጠይት-ሣልስ<br>teyt-salis</td>
+    <td>ጣ<br>ጠይት-ራዕብ<br>teyt-rabi</td>
+    <td>ጤ<br>ጠይት-ኃምስ<br>teyt-hamis</td>
+    <td>ጥ<br>ጠይት-ሳድስ<br>teyt-sadis</td>
+    <td>ጦ<br>ጠይት-ሳብዕ<br>teyt-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ጰይት<br>Peyt</th>
+    <td>ጰ<br>ጰይት-ግዕዝ<br>peyt-geez</td>
+    <td>ጱ<br>ጰይት-ካዕብ<br>peyt-kaib</td>
+    <td>ጲ<br>ጰይት-ሣልስ<br>peyt-salis</td>
+    <td>ጳ<br>ጰይት-ራዕብ<br>peyt-rabi</td>
+    <td>ጴ<br>ጰይት-ኃምስ<br>peyt-hamis</td>
+    <td>ጵ<br>ጰይት-ሳድስ<br>peyt-sadis</td>
+    <td>ጶ<br>ጰይት-ሳብዕ<br>peyt-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ጸደይ<br>Sedey</th>
+    <td>ጸ<br>ጸደይ-ግዕዝ<br>sedey-geez</td>
+    <td>ጹ<br>ጸደይ-ካዕብ<br>sedey-kaib</td>
+    <td>ጺ<br>ጸደይ-ሣልስ<br>sedey-salis</td>
+    <td>ጻ<br>ጸደይ-ራዕብ<br>sedey-rabi</td>
+    <td>ጼ<br>ጸደይ-ኃምስ<br>sedey-hamis</td>
+    <td>ጽ<br>ጸደይ-ሳድስ<br>sedey-sadis</td>
+    <td>ጾ<br>ጸደይ-ሳብዕ<br>sedey-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ፀጳ<br>Sepa</th>
+    <td>ፀ<br>ፀጳ-ግዕዝ<br>sepa-geez</td>
+    <td>ፁ<br>ፀጳ-ካዕብ<br>sepa-kaib</td>
+    <td>ፂ<br>ፀጳ-ሣልስ<br>sepa-salis</td>
+    <td>ፃ<br>ፀጳ-ራዕብ<br>sepa-rabi</td>
+    <td>ፄ<br>ፀጳ-ኃምስ<br>sepa-hamis</td>
+    <td>ፅ<br>ፀጳ-ሳድስ<br>sepa-sadis</td>
+    <td>ፆ<br>ፀጳ-ሳብዕ<br>sepa-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>አፍ<br>Af</th>
+    <td>ፈ<br>አፍ-ግዕዝ<br>af-geez</td>
+    <td>ፉ<br>አፍ-ካዕብ<br>af-kaib</td>
+    <td>ፊ<br>አፍ-ሣልስ<br>af-salis</td>
+    <td>ፋ<br>አፍ-ራዕብ<br>af-rabi</td>
+    <td>ፌ<br>አፍ-ኃምስ<br>af-hamis</td>
+    <td>ፍ<br>አፍ-ሳድስ<br>af-sadis</td>
+    <td>ፎ<br>አፍ-ሳብዕ<br>af-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ፕሳ<br>Psa</th>
+    <td>ፐ<br>ፕሳ-ግዕዝ<br>psa-geez</td>
+    <td>ፑ<br>ፕሳ-ካዕብ<br>psa-kaib</td>
+    <td>ፒ<br>ፕሳ-ሣልስ<br>psa-salis</td>
+    <td>ፓ<br>ፕሳ-ራዕብ<br>psa-rabi</td>
+    <td>ፔ<br>ፕሳ-ኃምስ<br>psa-hamis</td>
+    <td>ፕ<br>ፕሳ-ሳድስ<br>psa-sadis</td>
+    <td>ፖ<br>ፕሳ-ሳብዕ<br>psa-sabi</td>
+  </tr>
+</table>
+
+
+<h3><u>Post Ge'ez Letters</u></h3>
+
+
+<p align="justify">In &lt;reference&gt; ኻፍ is offered as an
+entity name for the ኸ family and offers an approach for forming
+names for newer letters.  Accordingly, ቬት would become the name
+for the ቨ family by substituting ቬ for ቤ
+in ቤት from which the ቨ glyphs have been derived.
+Likewise ጘመል for the ጘ family, etc.</p>
+
+<p align="justify">Since the original entity names being modified in this way did
+themselves have meaning (ቤት is "house" and ገምል "camel"
+in our example), this approach was not preferred as it implies the derived forms
+would also be meaningful.  Nor was selecting a representative term from primary
+language of the extended letters as doing so would require the availability of fair
+number of experts in the given languages to come to a consenus opinion.</p>
+
+<p align="justify">The solution applied here was to keep the original names
+and prefix the corresponding syllable of the first letter to the base name.
+Hence ቬ-ቤት, ጘ-ገምል, etc.  In this way the
+relationship between the new and derived form is also preserved.
+</p>
+
+<table border>
+  <tr align="center">
+    <th>ቓ-ቃፍ<br>Qha-Qaf</th>
+    <td>ቐ<br>ቓ-ቃፍ-ግዕዝ<br>qha-qaf-geez</td>
+    <td>ቑ<br>ቓ-ቃፍ-ካዕብ<br>qha-qaf-kaib</td>
+    <td>ቒ<br>ቓ-ቃፍ-ሣልስ<br>qha-qaf-salis</td>
+    <td>ቓ<br>ቓ-ቃፍ-ራዕብ<br>qha-qaf-rabi</td>
+    <td>ቔ<br>ቓ-ቃፍ-ኃምስ<br>qha-qaf-hamis</td>
+    <td>ቕ<br>ቓ-ቃፍ-ሳድስ<br>qha-qaf-sadis</td>
+    <td>ቖ<br>ቓ-ቃፍ-ሳብዕ<br>qha-qaf-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ቬ-ቤት<br>Ve-Bet</th>
+    <td>ቨ<br>ቬ-ቤት-ግዕዝ<br>ve-bet-geez</td>
+    <td>ቩ<br>ቬ-ቤት-ካዕብ<br>ve-bet-kaib</td>
+    <td>ቪ<br>ቬ-ቤት-ሣልስ<br>ve-bet-salis</td>
+    <td>ቫ<br>ቬ-ቤት-ራዕብ<br>ve-bet-rabi</td>
+    <td>ቬ<br>ቬ-ቤት-ኃምስ<br>ve-bet-hamis</td>
+    <td>ቭ<br>ቬ-ቤት-ሳድስ<br>ve-bet-sadis</td>
+    <td>ቮ<br>ቬ-ቤት-ሳብዕ<br>ve-bet-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ቻ-ታው<br>Ca-Taw</th>
+    <td>ቸ<br>ቻ-ታው-ግዕዝ<br>cha-taw-geez</td>
+    <td>ቹ<br>ቻ-ታው-ካዕብ<br>cha-taw-kaib</td>
+    <td>ቺ<br>ቻ-ታው-ሣልስ<br>cha-taw-salis</td>
+    <td>ቻ<br>ቻ-ታው-ራዕብ<br>cha-taw-rabi</td>
+    <td>ቼ<br>ቻ-ታው-ኃምስ<br>cha-taw-hamis</td>
+    <td>ች<br>ቻ-ታው-ሳድስ<br>cha-taw-sadis</td>
+    <td>ቾ<br>ቻ-ታው-ሳብዕ<br>cha-taw-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ኘ-ነሐስ<br>Nye-Nehes</th>
+    <td>ኘ<br>ኘ-ነሐስ-ግዕዝ<br>nye-nehas-geez</td>
+    <td>ኙ<br>ኘ-ነሐስ-ካዕብ<br>nye-nehas-kaib</td>
+    <td>ኚ<br>ኘ-ነሐስ-ሣልስ<br>nye-nehas-salis</td>
+    <td>ኛ<br>ኘ-ነሐስ-ራዕብ<br>nye-nehas-rabi</td>
+    <td>ኜ<br>ኘ-ነሐስ-ኃምስ<br>nye-nehas-hamis</td>
+    <td>ኝ<br>ኘ-ነሐስ-ሳድስ<br>nye-nehas-sadis</td>
+    <td>ኞ<br>ኘ-ነሐስ-ሳብዕ<br>nye-nehas-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ኻ-ካፍ<br>Kaf</th>
+    <td>ኸ<br>ኻ-ካፍ-ግዕዝ<br>kha-kaf-geez</td>
+    <td>ኹ<br>ኻ-ካፍ-ካዕብ<br>kha-kaf-kaib</td>
+    <td>ኺ<br>ኻ-ካፍ-ሣልስ<br>kha-kaf-salis</td>
+    <td>ኻ<br>ኻ-ካፍ-ራዕብ<br>kha-kaf-rabi</td>
+    <td>ኼ<br>ኻ-ካፍ-ኃምስ<br>kha-kaf-hamis</td>
+    <td>ኽ<br>ኻ-ካፍ-ሳድስ<br>kha-kaf-sadis</td>
+    <td>ኾ<br>ኻ-ካፍ-ሳብዕ<br>kha-kaf-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ዠ-ዘይ<br>Zhe-Zey</th>
+    <td>ዠ<br>ዘይ-ግዕዝ<br>zhe-zey-geez</td>
+    <td>ዡ<br>ዘይ-ካዕብ<br>zhe-zey-kaib</td>
+    <td>ዢ<br>ዘይ-ሣልስ<br>zhe-zey-salis</td>
+    <td>ዣ<br>ዘይ-ራዕብ<br>zhe-zey-rabi</td>
+    <td>ዤ<br>ዘይ-ኃምስ<br>zhe-zey-hamis</td>
+    <td>ዥ<br>ዘይ-ሳድስ<br>zhe-zey-sadis</td>
+    <td>ዦ<br>ዘይ-ሳብዕ<br>zhe-zey-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ዽ-ድንት<br>Dhi-Dint</th>
+    <td>ዸ<br>ዽ-ድንት-ግዕዝ<br>dhi-dint-geez</td>
+    <td>ዹ<br>ዽ-ድንት-ካዕብ<br>dhi-dint-kaib</td>
+    <td>ዺ<br>ዽ-ድንት-ሣልስ<br>dhi-dint-salis</td>
+    <td>ዻ<br>ዽ-ድንት-ራዕብ<br>dhi-dint-rabi</td>
+    <td>ዼ<br>ዽ-ድንት-ኃምስ<br>dhi-dint-hamis</td>
+    <td>ዽ<br>ዽ-ድንት-ሳድስ<br>dhi-dint-sadis</td>
+    <td>ዾ<br>ዽ-ድንት-ሳብዕ<br>dhi-dint-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ድንት<br>Dint</th>
+    <td>ጀ<br>ጅ-ድንት-ግዕዝ<br>ji-dint-geez</td>
+    <td>ጁ<br>ጅ-ድንት-ካዕብ<br>ji-dint-kaib</td>
+    <td>ጂ<br>ጅ-ድንት-ሣልስ<br>ji-dint-salis</td>
+    <td>ጃ<br>ጅ-ድንት-ራዕብ<br>ji-dint-rabi</td>
+    <td>ጄ<br>ጅ-ድንት-ኃምስ<br>ji-dint-hamis</td>
+    <td>ጅ<br>ጅ-ድንት-ሳድስ<br>ji-dint-sadis</td>
+    <td>ጆ<br>ጅ-ድንት-ሳብዕ<br>ji-dint-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ገምል<br>Nge-Gemel</th>
+    <td>ጘ<br>ጘ-ገምል-ግዕዝ<br>nge-gemel-geez</td>
+    <td>ጙ<br>ጘ-ገምል-ካዕብ<br>nge-gemel-kaib</td>
+    <td>ጚ<br>ጘ-ገምል-ሣልስ<br>nge-gemel-salis</td>
+    <td>ጛ<br>ጘ-ገምል-ራዕብ<br>nge-gemel-rabi</td>
+    <td>ጜ<br>ጘ-ገምል-ኃምስ<br>nge-gemel-hamis</td>
+    <td>ጝ<br>ጘ-ገምል-ሳድስ<br>nge-gemel-sadis</td>
+    <td>ጞ<br>ጘ-ገምል-ሳብዕ<br>nge-gemel-sabi</td>
+  </tr>
+  <tr align="center">
+    <th>ጨ-ጠይት<br>Che-Teyt</th>
+    <td>ጨ<br>ጨ-ጠይት-ግዕዝ<br>che-teyt-geez</td>
+    <td>ጩ<br>ጨ-ጠይት-ካዕብ<br>che-teyt-kaib</td>
+    <td>ጪ<br>ጨ-ጠይት-ሣልስ<br>che-teyt-salis</td>
+    <td>ጫ<br>ጨ-ጠይት-ራዕብ<br>che-teyt-rabi</td>
+    <td>ጬ<br>ጨ-ጠይት-ኃምስ<br>che-teyt-hamis</td>
+    <td>ጭ<br>ጨ-ጠይት-ሳድስ<br>che-teyt-sadis</td>
+    <td>ጮ<br>ጨ-ጠይት-ሳብዕ<br>che-teyt-sabi</td>
+  </tr>
+</table>
+
+
+<h3><u>Labiovelar</u></h3>
+
+<p align="justify">
+</p>
+
+<table border>
+  <tr align="center">
+    <th>&nbsp;</th>
+    <th>ተውሳከ-ግዕዝ<br>Tewsake Ge'ez</th>
+    <th>ተውሳከ-ካዕብ<br>Tewaske Kaib</th>
+    <th>ተውሳከ-ሣልስ<br>Tewaske Salis</th>
+    <th>ተውሳከ-ራዕብ<br>Tewaske Rabi</th>
+    <th>ተውሳከ-ኃምስ<br>Tewaske Hamis</th>
+    <th>ተውሳከ-ሳድስ<br>Tewaske Sadis</th>
+    <th>ተውሳከ-ሳብዕ<br>Tewaske Sabi</th>
+  </tr>
+  <tr align="center">
+    <th>ቃፍ<br>Qaf</th>
+    <td>ቈ<br>ቃፍ-ተውሳከ-ግዕዝ<br>qaf-tewsake-geez</td>
+    <td>ቍ<br>ቃፍ-ተውሳከ-ካዕብ<br>qaf-tewsake-kaib</td>
+    <td>ቊ<br>ቃፍ-ተውሳከ-ሣልስ<br>qaf-tewsake-salis</td>
+    <td>ቋ<br>ቃፍ-ተውሳከ-ራዕብ<br>qaf-tewsake-rabi</td>
+    <td>ቌ<br>ቃፍ-ተውሳከ-ኃምስ<br>qaf-tewsake-hamis</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr align="center">
+    <th>ቓ-ቃፍ<br>Qha-Qaf</th>
+    <td>ቘ<br>ቃፍ-ተውሳከ-ግዕዝ<br>qha-qaf-tewsake-geez</td>
+    <td>ቝ<br>ቃፍ-ተውሳከ-ካዕብ<br>qha-qaf-tewsake-kaib</td>
+    <td>ቚ<br>ቃፍ-ተውሳከ-ሣልስ<br>qha-qaf-tewsake-salis</td>
+    <td>ቛ<br>ቃፍ-ተውሳከ-ራዕብ<br>qha-qaf-tewsake-rabi</td>
+    <td>ቜ<br>ቃፍ-ተውሳከ-ኃምስ<br>qha-qaf-tewsake-hamis</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr align="center">
+    <th>ኀርም<br>Harm</th>
+    <td>ኈ<br>ኀርም-ተውሳከ-ግዕዝ<br>harm-tewsake-geez</td>
+    <td>ኍ<br>ኀርም-ተውሳከ-ካዕብ<br>harm-tewsake-kaib</td>
+    <td>ኊ<br>ኀርም-ተውሳከ-ሣልስ<br>harm-tewsake-salis</td>
+    <td>ኋ<br>ኀርም-ተውሳከ-ራዕብ<br>harm-tewsake-rabi</td>
+    <td>ኌ<br>ኀርም-ተውሳከ-ኃምስ<br>harm-tewsake-hamis</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr align="center">
+    <th>ካፍ<br>Kaf</th>
+    <td>ኰ<br>ካፍ-ተውሳከ-ግዕዝ<br>kaf-tewsake-geez</td>
+    <td>ኵ<br>ካፍ-ተውሳከ-ካዕብ<br>kaf-tewsake-kaib</td>
+    <td>ኲ<br>ካፍ-ተውሳከ-ሣልስ<br>kaf-tewsake-salis</td>
+    <td>ኳ<br>ካፍ-ተውሳከ-ራዕብ<br>kaf-tewsake-rabi</td>
+    <td>ኴ<br>ካፍ-ተውሳከ-ኃምስ<br>kaf-tewsake-hamis</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr align="center">
+    <th>ኻ-ካፍ<br>Kaf</th>
+    <td>ዀ<br>ኻ-ካፍ-ተውሳከ-ግዕዝ<br>kha-kaf-tewsake-geez</td>
+    <td>ዅ<br>ኻ-ካፍ-ተውሳከ-ካዕብ<br>kha-kaf-tewsake-kaib</td>
+    <td>ዂ<br>ኻ-ካፍ-ተውሳከ-ሣልስ<br>kha-kaf-tewsake-salis</td>
+    <td>ዃ<br>ኻ-ካፍ-ተውሳከ-ራዕብ<br>kha-kaf-tewsake-rabi</td>
+    <td>ዄ<br>ኻ-ካፍ-ተውሳከ-ኃምስ<br>kha-kaf-tewsake-hamis</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr align="center">
+    <th>ገምል<br>Gemel</th>
+    <td>ጐ<br>ገምል-ተውሳከ-ግዕዝ<br>gemel-tewsake-geez</td>
+    <td>ጕ<br>ገምል-ተውሳከ-ካዕብ<br>gemel-tewsake-kaib</td>
+    <td>ጒ<br>ገምል-ተውሳከ-ሣልስ<br>gemel-tewsake-salis</td>
+    <td>ጓ<br>ገምል-ተውሳከ-ራዕብ<br>gemel-tewsake-rabi</td>
+    <td>ጔ<br>ገምል-ተውሳከ-ኃምስ<br>gemel-tewsake-hamis</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+
+<h3><u>Numerals</u></h3>
+
+<p align="justify">Ge'ez numeral names are the natural choice for naming the
+entities.  The names of numbers will take a <a href="Ahaze.utf8.html">variety of forms</a>
+depending on the context of the phrase they are invoked in.  The entity names
+given below are those used when referring to the numerals themselves and are
+considered common knowledge.  <a href="/Numerals/">More on Ge'ez numerals.</a></p>
+
+<table border>
+  <tr>
+    <td>፩</td>
+    <td>አሐዱ</td>
+    <td>ahadu</td>
+  </tr>
+  <tr>
+    <td>፪</td>
+    <td>ክልኤቱ</td>
+    <td>kilietu</td>
+  </tr>
+  <tr>
+    <td>፫</td>
+    <td>ሠለስቱ</td>
+    <td>selestu</td>
+  </tr>
+  <tr>
+    <td>፬</td>
+    <td>አርባዕቱ</td>
+    <td>arbaitu</td>
+  </tr>
+  <tr>
+    <td>፭</td>
+    <td>ኀምስቱ</td>
+    <td>hamistu</td>
+  </tr>
+  <tr>
+    <td>፮</td>
+    <td>ስድስቱ</td>
+    <td>sadistu</td>
+  </tr>
+  <tr>
+    <td>፯</td>
+    <td>ሰብዐቱ</td>
+    <td>sebetu</td>
+  </tr>
+  <tr>
+    <td>፰</td>
+    <td>ሰመንት</td>
+    <td>sementu</td>
+  </tr>
+  <tr>
+    <td>፱</td>
+    <td>ተስዐቱ</td>
+    <td>tesetu</td>
+  </tr>
+  <tr>
+    <td>፲</td>
+    <td>ዐሠርቱ</td>
+    <td>asertu</td>
+  </tr>
+  <tr>
+    <td>፳</td>
+    <td>ዐሥራ</td>
+    <td>asra</td>
+  </tr>
+  <tr>
+    <td>፴</td>
+    <td>ሠላሳ</td>
+    <td>selasa</td>
+  </tr>
+  <tr>
+    <td>፵</td>
+    <td>አርብዓ</td>
+    <td>arba</td>
+  </tr>
+  <tr>
+    <td>፶</td>
+    <td>ኀምሳ</td>
+    <td>hemsa</td>
+  </tr>
+  <tr>
+    <td>፷</td>
+    <td>ስሳ / ስድሳ</td>
+    <td>sidsa</td>
+  </tr>
+  <tr>
+    <td>፸</td>
+    <td>ሰብዓ</td>
+    <td>seba</td>
+  </tr>
+  <tr>
+    <td>፹</td>
+    <td>ሰማንያ</td>
+    <td>semanya</td>
+  </tr>
+  <tr>
+    <td>፺</td>
+    <td>ተስዓ</td>
+    <td>tesa</td>
+  </tr>
+  <tr>
+    <td>፻</td>
+    <td>ምእት</td>
+    <td>meet</td>
+  </tr>
+  <tr>
+    <td>፼</td>
+    <td>እልፍ</td>
+    <td>elf</td>
+  </tr>
+  <tr>
+    <td>፲፼</td>
+    <td>አዕላፍ</td>
+    <td>asert elf</td>
+  </tr>
+  <tr>
+    <td>፻፼</td>
+    <td>አዕላፋት</td>
+    <td>meet elf</td>
+  </tr>
+  <tr>
+    <td>፲፻፼</td>
+    <td>ትእልፊት</td>
+    <td>asert meet elf</td>
+  </tr>
+  <tr>
+    <td>፻፼፼</td>
+    <td>ትዕልፊታት</td>
+    <td>meet elf elf</td>
+  </tr>
+  <tr>
+    <td>፲፻፼፼</td>
+    <td>ምእልፊት</td>
+    <td>asert meet elf elf</td>
+  </tr>
+  <tr>
+    <td>፼፼፼</td>
+    <td>ምእልፊታት</td>
+    <td>elf elf elf</td>
+  </tr>
+</table>
+
+
+<h3><u>Punctuation</u></h3>
+
+<p align="justify">
+<a href="PunctuationNames.utf8.html">additional punctuation names.</a>
+</p>
+
+
+<table border>
+<tr>
+  <td>፡</td>
+  <td>ንዑስ ነጥብ</td>
+  <td>neus-neteb</td>
+</tr>
+<tr>
+  <td>።</td>
+  <td>ዐቢይ ነጥብ</td>
+  <td>ebiy-neteb</td>
+</tr>
+<tr>
+  <td>፣</td>
+  <td>ነጠላ ሠረዝ</td>
+  <td>netela-serez</td>
+</tr>
+<tr>
+  <td>፥</td>
+  <td>ንዑስ ሠረዝ</td>
+  <td>neus-serez</td>
+</tr>
+<tr>
+  <td>፦</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>፤</td>
+  <td>ዐቢይ ሠረዝ</td>
+  <td>ebiy-serez</td>
+</tr>
+<tr>
+  <td>፧</td>
+  <td>ሠለስተ ነቍጥ</td>
+  <td>seleste-nequt</td>
+</tr>
+<tr>
+  <td>፨</td>
+  <td>ሰብዐተ ነቍጥ</td>
+  <td>sebet-nequt</td>
+</tr>
+</table>
+
+<!--
+
+ :             n'us : neTb
+,            neTela : `serez
+-:             n'us : `serez
+ ;            `ebiy : `serez
+::            `ebiy : neTb
+
+------------------------------------
+( : )                neTb
+(,-:)              n`us : `serez :  (wym : neTela : )
+(;)                `ebiy : `serez :  (wym : drb : )
+(::)                `erat : neTb :  (wym : nequt : )
+------------------------------------
+\.             neTb-:aw : (weym) : neqWuT-:maTbeqiya::
+ :             n'us : neTb-:nSal : (neTela)::
+,-:          n'us : `serez-:aw : nSal::
+;            `ebiy : `serez-:aw : k`ub : (drb)::
+::            `ebiy : neTb-:aw : k`ub::
+------------------------------------
+
+-->
+
+
+</body>
+</html>
