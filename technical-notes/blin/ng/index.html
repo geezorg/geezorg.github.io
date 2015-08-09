@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head><title>Blin Typeface Design for the "Ng" Syllables</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<?xml-stylesheet type="text/css" href="http://www.w3.org/StyleSheets/TR/base" media="all"?>
+<link rel="Stylesheet" type="text/css" href="http://www.w3.org/StyleSheets/TR/base" media="all" /></head>
+<style>
+img.indented { text-indent: 10%}
+</style>
+
+<body>
+
+<h1>Blin Typeface Design for the "Ng" Syllables</h1>
+<dl>
+  <dt>Authors:</dt>
+  <dd><a href="mailto:tekie.al@online.no">Tekie Alibekit</a> (Blin Language and Culture Association in Norway)</dd>
+  <dd><a href="mailto:yacob@geez.org">Daniel Yacob</a> (<a href="http://www.geez.org/">Ge'ez Frontier Foundation</a>)</dd>
+</dl>
+
+
+<hr />
+
+<h2 id="abstract">Abstract</h2>
+
+<p>The Ethiopic character set was introduced into ISO 10646 on 15/10/98 as Ammendment 10
+and became a part of the Unicode 3.0 standard in 2000.  The reference documents for the
+Agaw-Blin letter symbols <a href="http://www.evertype.com/standards/iso10646/pdf/amd10-ethiopic.pdf">present glyphs</a> based on the Ethiopic typewriter.  These glyphs were 
+<a href="http://www.unicode.org/charts/PDF/U1200.pdf">later refined</a> following the
+typeface design of Ethiopia's National Computer and Information Center's (NCIC) "Agaw" font for
+the Agaw school system.  This note presents further refinements to the standard typeface
+for the seven Agaw-Blin letters in the Basic Ethiopic range of the above mentioned standards
+as well as for five additional letters now in both the Basic and Extended Ethiopic ranges of Uniocde 4.1.0 and required
+in Agaw-Blin orthography.</p>
+
+
+<h2>Table of Contents</h2>
+
+<ul style="list-style: none">
+  <li><a href="#abstract">Abstract</a></li>
+  <li><a href="#intro">0. Introduction</a></li>
+  <li><a href="#basic">1. Design of Basic Blin</a></li>
+  <ul style="list-style: none">
+    <li><a href="#sixth">1.1 Design of the Sixth Form</a>
+    <li><a href="#seventh">1.2 Design of the Seventh form</a>
+  </ul>
+  <li><a href="#extended">2. Design of Extended Blin</a></li>
+  <li><a href="#recommend">3. Recommendations</a></li>
+  <li><a href="#appa">Appendix A. References</a></li>
+  <li><a href="#appb">Appendix B. Additional Typeface Samples</a></li>
+</ul>
+
+<h2 id="intro">0. Introduction</h2>
+<p>Agaw (aka "Agew" a family of languages in Ethiopia including "Awngi", "Qimant" and "Xamtanga")
+and Blin (aka "Bilin", "Bilien") speakers reside in present day Ethiopia
+and Eritrea respectively with a collective population of 630,000-650,000.  Both groups also
+have significant diaspora populations.  The languages of the two groups are closely related
+and share the same phoneme inventory and orthographic requirements.</p>
+
+<p>This note details an idealized design for the velar-nasal syllables in an Agaw-Blin typeface
+applying an Ethiopic font identical to the font of the Unicode code charts for Ethiopic.  The 
+syllables are first known to have been used in the writing of Blin languages in 1882 and documented
+in the works of Reinisch.  The typeface design rules in this technical note are also in keeping with the
+original typeface.</p>
+
+
+<h2 id="basic">1. Design of Basic Blin</h2>
+<p>The Blin syllables in &#x014B; (or "ng") found in the "Basic Ethiopic Range" of Unicode
+(<code>U+1200 - U+137C</code>) are derived from the classic Ge'ez syllables
+in "g" with the addition of the "Ethiopic macron" symbol.  Our derivation 
+of the Blin syllables necessarily begins by identifying the Ge'ez "g" 
+syllables:</p>
+
+
+<img src="step1a.png" class="indented"/>
+
+<p>As a convenience we may borrow the macron from another member of the
+Ethiopic syllabary to serve as a starting point for our "ng" macron
+design.  We find the following series available:</p>
+
+<img src="step1b.png" class="indented" />
+
+<p>The macron above <code>U+1298</code> is chosen in part because the 
+letter is phonemically related to "ng" but more so because the glyph
+is relatively horizontal which is a desireable trait.  Applying the
+<code>U+1298</code> macron it to <code>U+1308</code> it is immediately
+evident that its width is excessive.  We shorten the width, carefully
+maintaining the angle of the glyph from the horizontal, until the
+width of the macron is 1.42 the width of the <code>U+1308</code>.</p>
+
+<span style="white-space:nowrap"><img src="step1c.png" class="indented" align="top"/><img src="ng-macron-width.png" border=1 /></span>
+
+<p>Next we shorten the left and right side "flares" (aka "buttercups",
+"butterfly wings") at
+the end of the macron.  The height of the flares is scaled to 80% of
+the original where the flares appear more natural for "ng".  The aspect
+ratio of the flares, 1.40, is greater than the norm for macrons in the
+Ethiopic set but is in keeping with style in use since 1882 (Reinsch).</p>
+<img src="step1d.png" class="indented" />
+
+<p>The position of the macron above <code>U+1308</code> is adjusted to
+the aesthetically correct position of 17.62% the height of <code>U+1308</code>
+measured at the middle of the neck.</p>
+<span style="white-space:nowrap"><img src="step1e.png" class="indented" align="top"/><img src="ng-macron-height.png" border=1 /></span>
+
+<p>It is essential that the macron be joined to the body of <code>U+1308</code>
+base.  The early Unicode charts for Ethiopic presented the "ng" family with
+floating macrons.  This style of rendering is consider acceptable only from
+the Ethiopic typewriter which must use a separate key for the macron.  Hand
+written practices of both the Agaw and Blin will join the macron to the head
+of the "g" syllable it modifies.  Computer typography should present this
+expected form of the glyph.</p>
+
+<p>The "neck" that joins the macron to the head of the base glyph should have
+the same thickness as either <code>U+1238</code> and <code>U+1300</code> (which
+are generally identical) and borrow the angular properties of <code>U+1238</code>.
+In this demonstration the neck of <code>U+1238</code> has been simply grafted
+onto the top of <code>U+1308</code> with the height adjusted to meet the base
+of the macron.  Note that left side of the neck joins the head of
+<code>U+1308</code> where the left flare ends and the right side joined the
+head at the apex of the top curve (coincidental).  The neck then spans over
+the inner arch of the <code>U+1308</code> body, an effect that is considered
+desirable.</p>
+<img src="step1f.png" class="indented" />
+
+<p>The macron of <code>U+1318</code> may now be grafted onto <code>U+1309 - U+130C</code> to form our glyphs for <code>U+1319 - U+131C</code>:</p>
+<img src="step1g-new.png" class="indented" />
+
+<h3 id="sixth">1.1 Design of the Sixth Form (U+131D)</h2>
+
+<p>The rules given for grafting the neck onto the "g" series base must be
+adjusted for <code>U+130D</code> and <code>U+130D</code> which present special
+cases.  In the first, <code>U+130D</code>, the left most side ends not with
+the expected flare but with a loop.  In hand written practices the loop is
+written with a counter clockwise stroke.  This stroke will continue upward,
+thru the top of the body, to form the macron (Reinsch).  It remains desirable
+in modern typography that right side of the loop and the joining neck appear
+as a single continuous smooth stroke:</p>
+
+<img src="step1h.png" class="indented" />
+
+<h3 id="seventh">1.2 Design of the Seventh Form (U+131E)</h2>
+
+<p>The seventh form of the "ng" family is again a special case where
+the issue of the neck needs special consideration.  The reference font
+found in the Unicode 4.0 tables presents <code>U+131E</code> (or "ngo)
+as shown
+in the first frame in the table below.  The vertical lines and almost
+box like area presents an exception to the norms of typeface style in
+the font and to Ethiopic calligraphic styles in general.</p>
+
+<img src="step1i.png" class="indented" />
+
+<p>The Blin preffernce is to use a more natural loop in place of the
+box like hollowed neck.  U+1256 (in the 2nd frame above) offers the best
+starting point for an acceptable loop to apply to the "ngo" form.  Grafting
+the loop portion of <code>U+1256</code> onto the <code>U+130E</code> base
+we first scale the loop uniformly by 80%.  The uniform scaling is important
+to preserve the shape of the strokes and inner white area of the loop.</p>
+
+<p>In the third frame of our table we see the scaled loop grafted onto
+<code>U+1256</code> with the standard
+"ng" macron grafted on top.  As a consequence of the scaling the right side
+of the loop now appears too thin.  The last frame shows the loop with the
+outer most ride side loop displaced slightly to enhance the thickness.</p>
+
+<h2 id="extended">2. Design of Extended Blin</h2>
+<p>Both Agaw and Blin orthography rely on five labiovelar forms of the
+"ng" syllables 
+(
+&#x014B;&#x02B7;&#x0259;,
+&#x014B;&#x02B7;i,
+&#x014B;&#x02B7;a,
+&#x014B;&#x02B7;e and
+&#x014B;&#x02B7;
+).
+These five labialised forms have not yet been introduced into ISO-10646 /
+Unicode but are included in proposals for an "Extended Ethiopic" range.
+Repeating the process for the design of the basic Blin syllables we start
+by identifying the labialised forms in "ge" (<code>U+1310 - U+1315</code>)) that we will build upon:</p>
+<img src="step2a.png" class="indented" />
+
+<p>Again we may simply graft on the macron that we've designed for the
+basic Blin syllables:</p>
+<img src="step2b-new.png" class="indented" />
+
+<p>This approach is satisfactory for all but the third labialized form, "ngwa".
+During the design of the Ethiopian NCIC "Agaw" font the Agaw representatives
+were very specific in their request that the "ngwa" glyph follow the stylized
+norms of other "straight legged" labializations.  The Blin preference regarding "ngwa" concurs with the Agaw.  Comparison to <code>U+123F</code>
+is shown below as an example:</p>
+
+<img src="compare1b-new.png" class="indented" />
+
+<p>Note however that change in macron style (the bottom side is flat and "wingless") that occurs in many labializations and demonstrated with <code>U+123F</code> should not be applied to labialised forms of "ng".</p> 
+
+<h2 id="recommend">3. Recomendation</h2>
+
+<p>The original adaptation of the Agaw-Blin syllables to the typewriter suffered aesthetically from the
+limitation of the technology.  These typewriter typefaces would later become the basis for computer fonts
+and thus the visual deficiencies of the older technology were carried over into the new.  The Agaw and
+Blin communities however have expressed their desire that the original hand written forms be the basis
+for modern typefaces.</p>
+
+<p>It is the recommendation of this paper that the style guidelines presented herein be applied in the
+design of any new computer typefaces and that older typefaces for Ethiopic be updated accordingly.</p>
+
+<hr />
+
+<h2 id="appa">Appendix A. References</h2>
+
+<dl>
+<dt>Everson, Michael</dt>
+    <dd><cite>ISO 10646 Ammendment 10</cite> <a href="http://www.evertype.com/standards/iso10646/pdf/amd10-ethiopic.pdf">http://www.evertype.com/standards/iso10646/pdf/amd10-ethiopic.pdf</a></dd>
+
+<dt>Unicode</dt>
+    <dd>Ethiopic Code Chart in Unicode 3.0 and later: <a href="http://www.unicode.org/charts/PDF/U1200.pdf">http://www.unicode.org/charts/PDF/U1200.pdf</a></dd>
+    <dd>Extended Ethiopic Code Chart in Unicode 4.1.0: <a href="http://www.unicode.org/charts/PDF/U2D80.pdf">http://www.unicode.org/charts/PDF/U2D80.pdf</a></dd>
+
+<dt>Giuseppe Sappeto</dt>
+    <dd><cite>Viaggio missione cattolica frai Mensa, i Bogos e gli Habab, Roma, con un brevo dizionario Bileno</cite>, 1857</dd>
+
+<dt>Werner Munzinger</dt>
+    <dd><cite>Die deutsche Expedition in Ostafrika</cite>,   1861-64</dd>
+
+<dt>D'Abbadie, Antonie</dt>
+    <dd><cite>Sur le droit Bilen, Parigi</cite>, Paris,   1866</dd>
+
+<dt>Reinisch, Leo</dt>
+    <dd><cite>Die Bilin-Sprache in Nordos Afrika</cite>,  (Bilin Grammar), Vienna,   1882</dd>
+
+<dt>Reinisch, Leo</dt>
+    <dd><cite>wengel marqos: Gospel of Mark in Blin or Bogos Language</cite>,   1882</dd>
+
+<dt>Reinisch, Leo</dt>
+    <dd><cite>Texte Der Bilin-Sprache</cite>, (Blin Stories, narratives etc.). Leipzig,   1883</dd>
+
+<dt>Reinisch, Leo</dt>
+    <dd><cite>Worterbuch der Bilin Sprache</cite>,  (A Dictionary), Vienna,   1887</dd>
+
+<dt>Conti Rossini</dt>
+    <dd><cite>Racconte e Canti bileni</cite>, Actes du XIVe Internazionale des Orient. Rome,   1907</dd>
+
+<dt>Cappomaza, Uliano</dt>
+    <dd><cite>Un Testo Bileno</cite>, Rivista  Degli Studi Oriental. vol. 4-1911-12,   1911</dd>
+
+<dt>Fr. Wolde-Yohannes Habtemariam</dt>
+    <dd><cite>Awi mehedxwna</cite>,  (Who Created Us?, a catechism),   1939</dd>
+
+
+<dt>Palmer, F. R.</dt>
+    <dd><cite>The Verb in Bilin</cite>, Bulletin of the School of Oriental and African Studies, London,   1957</dd>
+
+<dt>Palmer, F. R.</dt>
+    <dd><cite>The Noun in Bilin</cite>, Bulletin of the School of Oriental and African Studies, London,   1958</dd>
+
+<dt>Palmer, F. R.</dt>
+    <dd><cite>An Outline of Bilin Phonology</cite>, Atti del convegno internazilanle diostdui etiopici. Roma: academiia Nazionale dei Lincei,   1960</dd>
+
+<dt>Palmer, F. R.</dt>
+    <dd><cite>Bilin "to be" and "to have"</cite>, African Language Studies, Vol. 6, pp. 101-111,   1965</dd>
+
+<dt>Palmer, F. R.</dt>
+    <dd><cite>Word Class in Bilin</cite>, International Review of General Linguistics, Lingua vol.17, Amsterdam,   1967</dd>
+
+<dt>Micheal Ghaber<sup>*</sup></dt>
+    <dd><cite>The Blin of Bogos</cite>, A Thesis Project submitted to the History Department of the then Haile Selassie I University in Addis Ababa, Printed in Iraq,   1971</dd>
+
+<dt>Zaborsky, Andrej</dt>
+    <dd><cite>Consonant apophomy and consonant alteration in Bilin</cite>, Afroasiatic Linguistics vol. 3, pt. 6,   1976</dd>
+
+<dt>Kiflemariam Fadega, Abba</dt>
+    <dd><cite>werena jar musiKw</cite>,   (A Cathechism and Paryers in Blin). Stencil, Unpublished,   1976</dd>
+
+<dt>Kiflemariam Fadega, Abba</dt>
+    <dd><cite>Qdase blind</cite>,  (The Holy Mass in Blin), Stencil, Unpublished,   1977</dd>
+
+<dt>Kiflemariam Fadega, Abba</dt>
+    <dd><cite>The Blin Language: A Long Struggle for Survival</cite>, A Paper Presented in the 8th International Conference of Ethiopian Studies, Addis Abba University. November 26-30. pp. 37,   1984</dd>
+
+<dt>Mekonnen Amanuel<sup>*</sup></dt>
+    <dd><cite>Melamedi QanQa Blin</cite>, Blin Primary. Asmara. Stencil, Unpublished,   1984</dd>
+
+<dt>Kiflemariam Hamde<sup>*</sup></dt>
+    <dd><cite>The Origin and Development of Blin</cite>, Blin Language Project. Institute of African Studies. Asmara University. Unpublished Research Paper. pp 100,   1986</dd>
+
+<dt>Kiflemariam Hamde<sup>*</sup></dt>
+    <dd><cite>The Role of Folk Poems in Expressing Economic Problems</cite>, a paper presented in Blin Language and Culture Seminar, June 5 1986, Asmara University, Eritrea,   1986</dd>
+
+<dt>Kiflemariam Hamde<sup>*</sup></dt>
+    <dd><cite>Analysis of some Blin Proverbs</cite>, Ethiopian Journal of African Studies 5(2): 62-68,   1989</dd>
+
+<dt>Kidane Yebio, Abba<sup>*</sup></dt>
+    <dd><cite>Fidel Shibisena Blinid (Blin for Beginners)</cite>, Unpublished,   1989</dd>
+
+<dt>Kiflemariam Hamde</dt>
+    <dd><cite>Traditional religious customs in Blin society: The 'Candle Meal' and the 'Covenant'</cite>, <i>Adventist Regnum Tuum</i> 51(1): 18-23 Asmara,,   1990</dd>
+
+<dt>Goitom Kuflom<sup>*</sup></dt>
+    <dd><cite>blin haleget</cite>, The Blin Alphabet. Switzerland. Unpublished Research Paper. pp 70,   1991</dd>
+
+<dt>Kidane Yebio, Abba, et.al</dt>
+    <dd><cite>Qdase blindi geezdisi. Hadisd delemaKw</cite>,  Stencil, Unpublished,   1992</dd>
+
+<dt>Tekie Alibekit<sup>*</sup></dt>
+    <dd><cite>Blina ktabetdi gbra gabuxwdi</cite>, "Blin Language. Introductory phonetics and Grammar. 1st edition", Oslo. pp 116, ISBN 82-992623-0-5,   1992</dd>
+
+
+<dt>Tekle Ghiorghis Yohannes Aftay<sup>*</sup></dt>
+    <dd><cite>Blinna Gabba Gug</cite>, : Blin grammar in Blin Language. Uppsala: Nyna Tryckeri. pp. 187,   1992</dd>
+
+<dt>Blin Langauge Research Group (Edited by Kiflemariam Hamde<sup>*</sup> and Paulos Zeremariam<sup>*</sup>)</dt>
+    <dd><cite>Blina qolata end'ba</cite>, Blin Dictionary, with English Translations . Uppsala: Nyna Tryckeri. pp. 390, ISBN 91-630-1297-9,   1992</dd>
+
+<dt>Bogos Goitom<sup>*</sup></dt>
+    <dd><cite>Enkeli</cite>, Love Poems. Uppsala: Nyna Tryckeri,   1992</dd>
+
+<dt>Yacob Zeru, Abba</dt>
+    <dd><cite>wengielynadera ysusruKw.</cite>,  The Gospel in Blin,   1993</dd>
+
+<dt>Tekie Alibekit<sup>*</sup></dt>
+    <dd><cite>A summary of Blin Phonetics and Grammatical Terms</cite>, Unpublished, Oslo,   1993</dd>
+
+<dt>Tekie Alibekit<sup>*</sup></dt>
+    <dd><cite>Blina Dgim H'yaytu</cite>,  Blin Fables, Unpublished, Oslo,   1993
+
+<dt>Tekie Alibekit<sup>*</sup>, Kiflemariam Hamde<sup>*</sup>, Fessehazion Zemicael<sup>*</sup>, and Abba Asfaha Kidanemariam<sup>*</sup></dt>
+    <dd><cite>Blina gaba TefHat</cite>, Standardisation of Some Blin Writing (1994), A working Paper. pp 8,   1994</dd>
+
+<dt>Fessahatzion Zemicael<sup>*</sup></dt>
+    <dd><cite>Shib blin'd. Numerals in Blin for Children.</cite>,  Stockholm,   1994</dd>
+
+<dt>Tekie Alibekit<sup>*</sup></dt>
+    <dd><cite>Blina Golia, Blin Folk Dance Songs</cite>, Unpublished,   1995</dd>
+
+<dt>Kiflemariam Hamde<sup>*</sup></dt>
+    <dd><cite>Recent Developments in Blin Writing</cite>, TimSa' Mengst'ke, An article describing the situation of Blin writing since 1970s, published in <i>Adventist Regnum Tuum</i>, A Six. monthly Review published by the Capuchin Students, Asmara, Nr Vol. 64, No 2: 80-84,   1996</dd>
+
+<dt>Kiflemariam Hamde<sup>*</sup></dt>
+    <dd><cite>The role of language in societal development: Culture, Language and Society</cite>, A paper presented at the <i>First National Conference on Eritrean Languages</i>, Ministry of Education, and EPFDJ, August 16-18, Asmara,   1996</dd>
+
+<dt>The Committee for Developing Blin Lanaguage and Culture in Keren</dt>
+    <dd><cite>The Committee for Developing Blin Lanaguage and Culture in Keren</cite>,   1997</dd>
+
+<dt>Kiflemariam Hamde<sup>*</sup></dt>
+    <dd><cite>Blin Language Lessons for DEHAI</cite>, A Network for Eritreans: <a HREF="http://web.archive.org/web/20010820200320/http://www.primenet.com/~ephrem2/languages/blin/">http://web.archive.org/web/20010820200320/http://www.primenet.com/~ephrem2/languages/blin/</a>,   1997</dd>
+
+<dt>Lamberti, M. &amp; L. Tonelli</dt>
+    <dd><cite>Some Phonological and Morphological Aspects of Bilin</cite>, Afroasiatic Neapolitana. 6, 81-99,   1997</dd>
+
+<dt>Ministry of Education</dt>
+    <dd><cite>Blina Gab Linger Me-ebed</cite>, Blin for 2nd Grade.  Publishing Unit of the Department of General Education,   1998</dd>
+
+<dt>Tekie Alibekit</dt>
+    <dd><cite>Blina Qolata End'ba</cite>, A revised version  of Leo Reinisch's 1987 Blin Dictionary, Unpublished,   1999</dd>
+
+<dt>Kidane Yebio, Abba, et.al</dt>
+    <dd><cite>srAt awsaIniKwdi arb sqletuKdi</cite>,  (The Ceremony of Hosanna and Long Friday),   2000</dd>
+
+<dt>Kidane Yebio, Abba, et.al</dt>
+    <dd><cite>ynaderes shiwnin</cite>,  (A Blin Prayer Book), 2000</dd>
+
+<dt>Kiflemariam Hamde<sup>*</sup></dt>
+    <dd><cite>Being and Becoming an Eritrean In Sweden: The Case of Blin Language and Culture Association in Stockholm</cite>, A paper submitted for a PhD Course on Sociolinguistics, Afro Asiatic Department, Uppsala University, December,   2000</dd>
+
+<dt>Kiflemariam Hamde<sup>*</sup></dt>
+    <dd><cite>Lets Discuss Blin Poems and their role in Blin Society.</cite>,  A Paper read at the 10<sup>th</sup> anniversary of the <cite>Blin Language and Culture Association in Sweden</cite>, Stockholm, December 28, 2000</dd>
+
+<dt>Kiflemariam Hamde<sup>*</sup></dt>
+    <dd><cite>How is Blin Written?</cite>,  A Paper presented at the <cite>First Workshop on Blin Language</cite>, organised by the <cite>Blin Language and Culture Association in Sweden</cite>, Stockholm, February 10, 2001</dd>
+
+<dt>Tekie Alibekit<sup>*</sup></dt>
+    <dd><cite>The Velar Nasal Stop "ng" in Blin and its Original Writing In Ge'ez</cite>, A Supplimentary paper for standardization of Blin Writing, Oslo, 2001</dd>
+
+<dt>Department of General Education,
+  <dd><cite>Blina Gab Selfa M&eacute;-&eacute;b&eacute;d</cite> (Blin Language for 1st Grade), Ministry of Education, Asmara, 1997</dd>
+
+<dt>Department of General Education</dt>
+  <dd><cite>Blina Gab Sikhwer M&eacute;-&eacute;b&eacute;d</cite> (Blin Language for 3rd Grade), Ministry of Education, Asmara, 1999</dd>
+
+<dt>Marcello Lamberti</dt>
+  <dd><cite>The Expression of Prepositional Phrases in Blin</cite>,
+  New Data and New Methods in Afroasiatic Linguistics-Robert Hetzron in Memoriam, Edited by Anderzej Zobarski 2001 Wiesbaden</dd>
+
+<dt>Abbebe Kifleyesus</dt>
+  <dd><cite>Blin: Speaker Status Strength and Weakness</cite>, Africa- Rivista trimestrale di studi e documentazione dell' Istituto italiano per l'Africa e lOrientale March 2001</dd>
+
+<dt>Paul D. Fallon, Howard University</dt>
+  <dd><cite>Some Phonological Processes in Bilin</cite>,
+  Proceedings of the Berkeley Linguistics
+  Society Special Session on Afro-Asiatic Linguistics, Berkeley, CA. 2001
+
+<dt>Marcello Lamberti &amp; Livia Tonelli</dt>
+  <dd><cite>The Noun System of Bilin</cite>, Ethiopia in Broader Perspective vol. 1-
+ papers of the XIIIth International Conference of Ethiopian Studies, Kyoto: Shokado Book Sellers ISBN: 4-87974-976-1 C3039 2001? Kiyoto 12-17 Dec. 1997</dd>
+
+</dl>
+
+<hr />
+
+<h2 id="appb">Appendix B. Additional Typeface Examples</h2>
+
+<p>TBD - Repeat the formula with other typefaces.</p>
+
+<address>Modified: 2005-04-09T05:33:12+03:00</address>
+<address>Modified: 2002-09-24T15:27:48+03:00</address>
+
+</body></html>
