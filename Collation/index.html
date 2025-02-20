@@ -1,0 +1,417 @@
+<html>
+<head>
+  <title>Collation</title>
+  <META HTTP-EQUIV="content-type" content="text-html; charset=utf-8">
+  <meta name="keywords" content="Ethiopic, Collation, Sorting, Order, Ordering">
+</head>
+<body bgcolor="#fffffh">
+
+<h2><u>Collation</u></h2>
+
+<p align="justify">When we consider that Ethiopia and Eritrea together have upwards of 80 languages it should come as no surprise to learn that no single language uses all of the characters in the Unicode definition of Ethiopic. Ethiopic in Unicode is indeed a collection of the character sets of these languages integrated under a set of linguistic rules. As is the case in Europe and North America a person generally learns the letters they need for their particular language and might go their lifetime oblivious to additional letters, or even slightly different use of common letters, in neighboring languages.</p>
+
+<p align="justify">Fortunately the variations in convention are not too unwieldy to manage in software and there is a good degree of tolerance in the area of sorting.  Firstly, there is no real concern for the order of punctuation. Numerals should of course be sequential as per their value but there is no concern that their order be higher or lower than that of the syllographs or punctuation.</p>
+
+<p align="justify">The syllabic series that go unused by a given language are generally just dropped from its syllabary. Accordingly, users are not concerned for the sorting order of jettisoned letters, as they were unlikely to have been used in their literature anyway.  The traditional order is then suitable. For example the ቨ ("ve") family is not a phoneme in most Ethiopian languages but is important for transcribing foreign words such as "university" (ዩኒቨርስቲ). "ቨ" may then acceptably sort after "በ", from which the glyph is derived, though some conventions will place it after "ፐ" the last series of the syllabary.</p>
+
+<p align="justify">Under Amharic practices the phonetically redundant (homophonic) characters are not dropped from the syllabary as they do retain their relevance for the canonical spelling of words. It is however a common convention in Amharic dictionaries to "fold" the series onto one another for brevity.</p>
+
+<p align="justify">The convention of placing relatively newer characters at the end of the syllabary (including the zemede extensions) is required to maintain the Gematria encoding of the script and is also common in primary education but is generally not a concern when applied to electronic collation. The Unicode approach of integrating the extension members into the syllabary proper will meet with little objection. The approach also has precedence set by Kidane Wold Kifle who applied the same technique in 1955 in an updated form of the "Abegede" syllabary<sup><a href="Bibliography.html#12">12</a></sup>.</p>
+
+<p align="justify">The Abegede syllabary does indeed demand our attention and consideration when addressing collation issues. Proponents of the sequencing argue that it is the original order of the Ge'ez script as would be required by the Semitic alphabetic template. Many references on ancient writing and archaeology will use the Abegede order for sake of comparison when displaying the Mino-Sabaean script (the likely progenitor of Ge'ez), "Thamudic" style Ge'ez and later Ge'ez along side other Semitic scripts. The more thorough references will add the caveat to the comparison that the South Arabian convention (albeit sans the vowel demarcation) was indeed "Halehame".</p>
+
+<p align="justify">The Ethiopian Orthodox Church did for a time embrace the "Abegede" order and until the present day materials are still published where the sequence is used for indexing<sup><a href="Bibliography.html#12">12</a></sup>. The "Abegede" collation should remain an option in a Ge'ez language locale when dealing with this class of literature where it is expected. For every other case the "Halehame" collation convention is appropriate. Kidane Wold Kifle introduced a modernization of the Abegede order for the Amharic syllabary<sup><a href="Bibliography.html#11">11</a></sup>. The extent to which it was adapted and impacted literature that followed is unknown to the author.</p>
+
+<p align="justify">The <a href="Abugida.html">Abugida syllabary</a> is more familiar to the average person than is the Abegede syllabary that it is derived from. The two are often thought to be the same syllabary. This is not the case however as the Abugida syllabary is a simple rotation of the Abegede order intended to challenge the student who is has learned the syllabary thru rote memorization. The "Abugida" in the first column curiously follows the Gematria order. Each consecutive rightward column then shifts a single row upward as per its distance from the first column (shift = column number - 1). Elements shifted off the top then wrap around to the bottom.</p>
+
+<p align="justify">A modern ordering of the syllabary is aimed at introducing the syllabary to kindergarteners following the glyph similarities of the elements. The kindergarten order are shown here for comparison value. We need only be aware of conventions as not in need of being addressed as a collation system.</p>
+
+<table border>
+<tr>
+  <th>Unicode</th>
+  <th>Amharic Dictionary</th>
+  <th>Ge'ez Heleheme</th>
+
+  <th>Ge'ez Abegede</th>
+  <th>KWK Abegede</th>
+  <th>Glyph Based</th>
+</tr>
+<tr align="center">
+  <td>ሀ</td>
+  <td>ሀ/ሐ/ኀ/ኸ</td>
+  <td>ሀ</td>
+
+  <td>አ</td>
+  <td>አ</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>ለ</td>
+  <td>ለ</td>
+  <td>ለ</td>
+
+  <td>በ</td>
+  <td>በ</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>ሐ</td>
+  <td>መ</td>
+  <td>ሐ</td>
+
+  <td>ገ</td>
+  <td>ገ</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>መ</td>
+  <td>ሠ/ሰ</td>
+  <td>መ</td>
+
+  <td>ደ</td>
+  <td>ደ</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>ሠ</td>
+  <td>ረ</td>
+  <td>ሠ</td>
+
+  <td>ሀ</td>
+  <td>ጀ</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>ረ</td>
+  <td>ሸ</td>
+  <td>ረ</td>
+
+  <td>ወ</td>
+  <td>ሀ</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>ሰ</td>
+  <td>ቀ</td>
+  <td>ሰ</td>
+
+  <td>ዘ</td>
+  <td>ወ</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>ሸ</td>
+  <td>በ</td>
+  <td>ቀ</td>
+
+  <td>ሐ</td>
+  <td>ዘ</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>ቀ</td>
+  <td>ተ</td>
+  <td>በ</td>
+
+  <td>ጠ</td>
+  <td>ዠ</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>ቐ</td>
+  <td>ቸ</td>
+  <td>ተ</td>
+
+  <td>የ</td>
+  <td>ሐ</td>
+  <td>ሀ</td>
+</tr>
+<tr align="center">
+  <td>በ</td>
+  <td>ነ</td>
+  <td>ኀ</td>
+
+  <td>ከ</td>
+  <td>ኀ</td>
+  <td>ሠ</td>
+</tr>
+<tr align="center">
+  <td>ቨ</td>
+  <td>ኘ</td>
+  <td>ነ</td>
+
+  <td>ለ</td>
+  <td>ጠ</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>ተ</td>
+  <td>አ/ዐ</td>
+  <td>አ</td>
+
+  <td>መ</td>
+  <td>ጨ</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>ቸ</td>
+  <td>ከ</td>
+  <td>ከ</td>
+
+  <td>ነ</td>
+  <td>የ</td>
+  <td>ፐ</td>
+</tr>
+<tr align="center">
+  <td>ኀ</td>
+  <td>ወ</td>
+  <td>ወ</td>
+
+  <td>ሠ</td>
+  <td>ከ</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>ነ</td>
+  <td>ዘ</td>
+  <td>ዐ</td>
+
+  <td>ዐ</td>
+  <td>ኸ</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>ኘ</td>
+  <td>ዠ</td>
+  <td>ዘ</td>
+
+  <td>ፈ</td>
+  <td>ለ</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>አ</td>
+  <td>የ</td>
+  <td>የ</td>
+
+  <td>ጸ</td>
+  <td>መ</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>ከ</td>
+  <td>ደ</td>
+  <td>ደ</td>
+
+  <td>ቀ</td>
+  <td>ነ</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>ኸ</td>
+  <td>ጀ</td>
+  <td>ገ</td>
+
+  <td>ረ</td>
+  <td>ኘ</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>ወ</td>
+  <td>ገ</td>
+  <td>ጠ</td>
+
+  <td>ሰ</td>
+  <td>ሠ</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>ዐ</td>
+  <td>ጠ</td>
+  <td>ጰ</td>
+
+  <td>ተ</td>
+  <td>ዐ</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>ዘ</td>
+  <td>ጨ</td>
+  <td>ጸ</td>
+
+  <td>ኀ</td>
+  <td>ፈ</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>ዠ</td>
+  <td>ጰ</td>
+  <td>ፀ</td>
+
+  <td>ፀ</td>
+  <td>ጸ</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>የ</td>
+  <td>ጸ</td>
+  <td>ፈ</td>
+
+  <td>ጰ</td>
+  <td>ፀ</td>
+  <td>ኀ</td>
+</tr>
+<tr align="center">
+  <td>ደ</td>
+  <td>ፀ</td>
+  <td>ፐ</td>
+
+  <td>ፐ</td>
+  <td>ቀ</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>ዸ</td>
+  <td>ፈ</td>
+  <td>&nbsp;</td>
+
+  <td>&nbsp;</td>
+  <td>ረ</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>ጀ</td>
+  <td>ፐ</td>
+  <td>&nbsp;</td>
+
+  <td>&nbsp;</td>
+  <td>ሰ</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>ገ</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+
+  <td>&nbsp;</td>
+  <td>ሸ</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>ጘ</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+
+  <td>&nbsp;</td>
+  <td>ተ</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>ጠ</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+
+  <td>&nbsp;</td>
+  <td>ቸ</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>ጨ</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+
+  <td>&nbsp;</td>
+  <td>ጰ</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>ጰ</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+
+  <td>&nbsp;</td>
+  <td>ፐ</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>ጸ</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+<tr align="center">
+  <td>ፀ</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+<tr align="center">
+  <td>ፈ</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+<tr align="center">
+  <td>ፐ</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+</table>
+
+<p align="justify">It must be noted that for the six series (ቀ,ቐ,ኀ,ከ,ኸ and ገ) having the full complement of 12 forms, the Unicode ordering attempts a linguistic style of sequencing. Indeed the zemede-kaib and zemede-sadis can be shown to be separated by very little distance under linguistic metrics. In the present day this spoken difference is not stressed and we are likely seeing a phonemic decay of the zemede-kaib into a zemede-sadis form. While the Unicode sequencing can be found in Eritrean and Ethiopian reference, it is fairly common knowledge that the traditional sequence recognizes the zemede-kaib position as correct for the syllographs in questions. Our next table demonstrates the difference using the ከ syllable:</p>
+
+<table border>
+<tr>
+  <th>&nbsp;</th>
+  <th>ግዕዝ<br>Ge'ez</th>
+  <th>ካዕብ<br>Kaib</th>
+  <th>ሣልስ<br>Salis</th>
+  <th>ራዕብ<br>Rabi</th>
+  <th>ኃምስ<br>Hamis</th>
+  <th>ሳድስ<br>Sadis</th>
+  <th>ሳብዕ<br>Sabi</th>
+</tr>
+<tr align="center">
+  <th>Traditional</th>
+  <td>ኰ</td>
+  <td>ኵ</td>
+  <td>ኲ</td>
+  <td>ኳ</td>
+  <td>ኴ</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+<tr align="center">
+  <th>Unicode</th>
+  <td>ኰ</td>
+  <td>&nbsp;</td>
+  <td>ኲ</td>
+  <td>ኳ</td>
+  <td>ኴ</td>
+  <td>ኵ</td>
+  <td>&nbsp;</td>
+</tr>
+</table>
+
+<p align="justify">The final three syllographic elements in Unicode, ፘ, ፙ and ፚ, are in an order slightly different from that of how their base components appear in the syllabary.  These last three elements could potentially sort as-is, or in order with the base syllabary as ፙ, ፘ and ፚ, or as the last member of their syllabic families following ሟ, ሯ and ፏ accordingly.  The later option would likely be found to be the most intuitive of the three.  Alas, since the 3 ligatures are virtually unknown archaic relics of the syllabary's history, the matter of their sort order could be no more than academic.</p>
+
+<p align="justify">Collation is otherwise straightforward and no practices are known for Ethiopic script whereby two or more characters together sort in a higher or lower order than separately.</p>
+
+<hr size="2" />
+<div align="right"><em>See also <a href="OrderedLists.html">Ethiopic Ordered Lists</a></em></div>
+
+</body>
+</html>

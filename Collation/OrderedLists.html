@@ -1,0 +1,5958 @@
+<html>
+<head>
+  <title>Ethiopic Ordered List</title>
+  <META HTTP-EQUIV="content-type" content="text-html; charset=utf-8">
+  <meta name="keywords" content="Ethiopic, Order, Ordering, Lists, Orthography">
+</head>
+<body bgcolor="#fffffh">
+
+<h1>Ethiopic Ordered List</h1>
+
+<h3><u>Numeric Lists</u></h3>
+<p align="justify">Ethiopic numeric lists follow the same rules as
+do lists counted with Arabic numerals.  Mapping an integer onto the
+proper Ethiopic numeric sequence deserves
+<a href="http://www.geez.org/Numerals/">special attention</a>
+though.
+</p>
+
+
+<h3><u>Alphabetic Lists</u></h3>
+
+<p align="justify">
+Alphabetic style lists for Ethiopic apply <em>only</em> the first (Ge'ez) form
+of the syllables <em>-NOT UNICODE SORT ORDER!!</em>.  These letters may then
+be used in the same way as Roman script as list counters.
+</p>
+
+<p align="justify">
+It is recommended that two sort orders be supported.  The most important
+is the "Halehame" order used in Unicode.  The second is the "Abegede" order
+used in some works in Ge'ez literature.  The Ethiopic character set in
+Unicode is a collection of character sets used by the different languages 
+of Ethiopia and Eritrea.  No one language uses every element in Unicode,
+each languages uses some subset of what is in Unicode.  Accordingly, a
+writer would normally use only the elements employed by his/her language
+in an ordered list.  Hence locales should be applied to elements utilized
+in forming an ordered alphabetic list.
+</p>
+
+<p align="justify">
+The use of locales is the ideal case.  Unfortunately only a very few
+Eritrean and Ethiopian languages have been assigned ISO-639-Alpha-3
+codes and even fewer have been assigned Alpha-2 codes.  When the use of
+locales is not possible the Ge'ez (traditional) set in Halehame order
+should be used as a default.  The full unicode set order should be an
+option however, along with the Abegede order.
+</p>
+
+<p align="justify">
+Dot (U+002E) is not the normal punctuation following the counter character.
+Either U+1366 or "/" (U+002F) should be used instead, configuration through
+a style sheet would be desirable.
+</p>
+
+<p align="justify">The tables in this document are only for those languages
+currently assigned either an ISO-639-2 or 639-3 code.  The Abegede sequence
+was an ordering used in Ge'ez literature.  The sequence was periodically
+promoted for use in other languages (Amharic and Tigrigna) evidence of its
+use in collation or in ordered list would be hard to come by were it ever
+employed outside of Ge'ez.  It can be expected that Amharic and Tigrigna
+users would like to use Abegede ordered list were it an available option.
+</p>
+
+<hr size="4" />
+<p align="justify">
+The material here is based on common knowledge as well as the work
+<cite>Utilization of the Amharic Alphabet in the Transcription of
+Ethiopian Languages and Literacy</cite> by Dr Amsalu Aklilu and Tesfaye Shewaye,
+Academy of Ethiopian Languages, Addis Ababa, February 1985.  Additional information on Ethiopic collation can be found <a href="http://www.geez.org/Collation/">here.</a>
+</p>
+
+<hr size="4" />
+<h2>Ge'ez Set  (gez)</h2>
+
+<table border="0">
+<tr><td>
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="26" align="left" valign="top">
+<pre>
+char Halehame[26] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1220',
+  '\u1228',
+  '\u1230',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1280',
+  '\u1290',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D0',
+  '\u12D8',
+  '\u12E8',
+  '\u12F0',
+  '\u1308',
+  '\u1320',
+  '\u1330',
+  '\u1338',
+  '\u1340',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1220</td>
+  <td>ሠ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1280</td>
+  <td>ኀ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+</td><td width="100">&nbsp;</td><td>
+
+<h3>አበገደ (Abegede)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+  <td rowspan="26" align="left" valign="top">
+<pre>
+char Abegede[26] = {
+  '\u12A0',
+  '\u1260',
+  '\u1308',
+  '\u12F0',
+  '\u1200',
+  '\u12C8',
+  '\u12D8',
+  '\u1210',
+  '\u1320',
+  '\u12E8',
+  '\u12A8',
+  '\u1208',
+  '\u1218',
+  '\u1290',
+  '\u1220',
+  '\u12D0',
+  '\u1348',
+  '\u1338',
+  '\u1240',
+  '\u1228',
+  '\u1230',
+  '\u1270',
+  '\u1280',
+  '\u1340',
+  '\u1330',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1220</td>
+  <td>ሠ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1280</td>
+  <td>ኀ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+
+
+<p>&nbsp;</p>
+<hr size="2" />
+<h2>Unicode Set</h2>
+
+<table border="0">
+<tr><td>
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="37" align="left" valign="top">
+<pre>
+char HalehameUnicode[37] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1220',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1250',
+  '\u1260',
+  '\u1268',
+  '\u1270',
+  '\u1278',
+  '\u1280',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12B8',
+  '\u12C8',
+  '\u12D0',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u12F8',
+  '\u1300',
+  '\u1308',
+  '\u1318',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1338',
+  '\u1340',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1220</td>
+  <td>ሠ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1250</td>
+  <td>ቐ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1268</td>
+  <td>ቨ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1280</td>
+  <td>ኀ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+12F8</td>
+  <td>ዸ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1318</td>
+  <td>ጘ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+</td><td width="100">&nbsp;</td><td>
+
+<h3>አበገደ (Abegede)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+  <td rowspan="37" align="left" valign="top">
+<pre>
+char AbegedeUnicode[37] = {
+  '\u12A0',
+  '\u1260',
+  '\u1268',
+  '\u1308',
+  '\u1318',
+  '\u12F0',
+  '\u12F8',
+  '\u1300',
+  '\u1200',
+  '\u12C8',
+  '\u12D8',
+  '\u12E0',
+  '\u1210',
+  '\u1320',
+  '\u1328',
+  '\u12E8',
+  '\u12A8',
+  '\u12B8',
+  '\u1208',
+  '\u1218',
+  '\u1290',
+  '\u1298',
+  '\u1220',
+  '\u12D0',
+  '\u1348',
+  '\u1338',
+  '\u1240',
+  '\u1250',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1270',
+  '\u1278',
+  '\u1280',
+  '\u1340',
+  '\u1330',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1268</td>
+  <td>ቨ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1318</td>
+  <td>ጘ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+12F8</td>
+  <td>ዸ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+1220</td>
+  <td>ሠ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1250</td>
+  <td>ቐ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1280</td>
+  <td>ኀ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+
+
+<p>&nbsp;</p>
+<hr size="2" />
+<h2>Amharic (am_ET) Set</h2>
+
+<table border="0">
+<tr><td>
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="33" align="left" valign="top">
+<pre>
+char HalehameAmharic[33] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1220',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1280',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12B8',
+  '\u12C8',
+  '\u12D0',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1338',
+  '\u1340',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1220</td>
+  <td>ሠ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1280</td>
+  <td>ኀ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+</td><td width="100">&nbsp;</td><td>
+
+<h3>አበገደ (Abegede)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+  <td rowspan="33" align="left" valign="top">
+<pre>
+char AbegedeAmharic[33] = {
+  '\u12A0',
+  '\u1260',
+  '\u1308',
+  '\u12F0',
+  '\u1300',
+  '\u1200',
+  '\u12C8',
+  '\u12D8',
+  '\u12E0',
+  '\u1210',
+  '\u1320',
+  '\u1328',
+  '\u12E8',
+  '\u12A8',
+  '\u12B8',
+  '\u1208',
+  '\u1218',
+  '\u1290',
+  '\u1298',
+  '\u1220',
+  '\u12D0',
+  '\u1348',
+  '\u1338',
+  '\u1240',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1270',
+  '\u1278',
+  '\u1280',
+  '\u1340',
+  '\u1330',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+1220</td>
+  <td>ሠ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1280</td>
+  <td>ኀ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+
+
+<p>&nbsp;</p>
+<hr size="2" />
+<h2>Eritrean Tigrigna (ti_ER) Set</h2>
+
+<table border="0">
+<tr><td>
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="32" align="left" valign="top">
+<pre>
+char HalehameTigrignaEr[31] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1250',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12B8',
+  '\u12C8',
+  '\u12D0',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1338',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1250</td>
+  <td>ቐ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+</td><td width="100">&nbsp;</td><td>
+
+<h3>አበገደ (Abegede)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+  <td rowspan="32" align="left" valign="top">
+<pre>
+char AbegedeTigrignaEr[31] = {
+  '\u12A0',
+  '\u1260',
+  '\u1308',
+  '\u12F0',
+  '\u1300',
+  '\u1200',
+  '\u12C8',
+  '\u12D8',
+  '\u12E0',
+  '\u1210',
+  '\u1320',
+  '\u1328',
+  '\u12E8',
+  '\u12A8',
+  '\u12B8',
+  '\u1208',
+  '\u1218',
+  '\u1290',
+  '\u1298',
+  '\u12D0',
+  '\u1348',
+  '\u1338',
+  '\u1240',
+  '\u1250',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1270',
+  '\u1278',
+  '\u1330',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1250</td>
+  <td>ቐ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+
+
+<p>&nbsp;</p>
+<hr size="2" />
+<h2>Ethiopian Tigrigna (ti_ET) Set</h2>
+
+<table border="0">
+<tr><td>
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="35" align="left" valign="top">
+<pre>
+char HalehameTigrignaEt[34] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1220',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1250',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1280',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12B8',
+  '\u12C8',
+  '\u12D0',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1338',
+  '\u1340',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1220</td>
+  <td>ሠ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1250</td>
+  <td>ቐ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1280</td>
+  <td>ኀ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+</td><td width="100">&nbsp;</td><td>
+
+<h3>አበገደ (Abegede)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+  <td rowspan="35" align="left" valign="top">
+<pre>
+char AbegedeTigrignaEt[34] = {
+  '\u12A0',
+  '\u1260',
+  '\u1308',
+  '\u12F0',
+  '\u1300',
+  '\u1200',
+  '\u12C8',
+  '\u12D8',
+  '\u12E0',
+  '\u1210',
+  '\u1320',
+  '\u1328',
+  '\u12E8',
+  '\u12A8',
+  '\u12B8',
+  '\u1208',
+  '\u1218',
+  '\u1290',
+  '\u1298',
+  '\u1220',
+  '\u12D0',
+  '\u1348',
+  '\u1338',
+  '\u1240',
+  '\u1250',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1270',
+  '\u1278',
+  '\u1280',
+  '\u1340',
+  '\u1330',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+1220</td>
+  <td>ሠ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1250</td>
+  <td>ቐ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1280</td>
+  <td>ኀ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+
+
+<p>&nbsp;</p>
+<hr size="2" />
+<h2>Oromo (om_ET) Set</h2>
+
+<p align="justify">
+Oromo literature used Ethiopic writing from 1870-1970 before migration
+towards a romanization system by the name of "Qubee" begun.  The extent to
+which Qubee is used for collation and ordered lists is under investigation.
+</p>
+
+
+<table border="0">
+<tr valign="top"><td>
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="25" align="left" valign="top">
+<pre>
+char HalehameOromo[25] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12E8',
+  '\u12F0',
+  '\u12F8',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1338',
+  '\u1348'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+12F8</td>
+  <td>ዸ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+</table>
+
+</td><td width="100">&nbsp;</td><td>
+
+<h3>Qubee</h3>
+
+<table border="1">
+<tr>
+  <th>Char(s)</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>A</td>
+  <td rowspan="37" align="left" valign="top">
+<pre>
+char QubeeOromo[37] = {
+  "A",
+  "AA",
+  "B",
+  "C",
+  "D",
+  "E",
+  "EE",
+  "F",
+  "G",
+  "H",
+  "I",
+  "II",
+  "J",
+  "K",
+  "L",
+  "M",
+  "N",
+  "O",
+  "OO",
+  "P",
+  "Q",
+  "R",
+  "S",
+  "T",
+  "U",
+  "UU",
+  "V",
+  "W",
+  "X",
+  "Y",
+  "Z",
+  "CH",
+  "DH",
+  "KH",
+  "NY",
+  "PH",
+  "SH"
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>AA</td>
+</tr>
+<tr align="center">
+  <td>B</td>
+</tr>
+<tr align="center">
+  <td>C</td>
+</tr>
+<tr align="center">
+  <td>D</td>
+</tr>
+<tr align="center">
+  <td>E</td>
+</tr>
+<tr align="center">
+  <td>EE</td>
+</tr>
+<tr align="center">
+  <td>F</td>
+</tr>
+<tr align="center">
+  <td>G</td>
+</tr>
+<tr align="center">
+  <td>H</td>
+</tr>
+<tr align="center">
+  <td>I</td>
+</tr>
+<tr align="center">
+  <td>II</td>
+</tr>
+<tr align="center">
+  <td>J</td>
+</tr>
+<tr align="center">
+  <td>K</td>
+</tr>
+<tr align="center">
+  <td>L</td>
+</tr>
+<tr align="center">
+  <td>M</td>
+</tr>
+<tr align="center">
+  <td>N</td>
+</tr>
+<tr align="center">
+  <td>O</td>
+</tr>
+<tr align="center">
+  <td>OO</td>
+</tr>
+<tr align="center">
+  <td>P</td>
+</tr>
+<tr align="center">
+  <td>Q</td>
+</tr>
+<tr align="center">
+  <td>R</td>
+</tr>
+<tr align="center">
+  <td>S</td>
+</tr>
+<tr align="center">
+  <td>T</td>
+</tr>
+<tr align="center">
+  <td>U</td>
+</tr>
+<tr align="center">
+  <td>UU</td>
+</tr>
+<tr align="center">
+  <td>V</td>
+</tr>
+<tr align="center">
+  <td>W</td>
+</tr>
+<tr align="center">
+  <td>X</td>
+</tr>
+<tr align="center">
+  <td>Y</td>
+</tr>
+<tr align="center">
+  <td>Z</td>
+</tr>
+<tr align="center">
+  <td>CH</td>
+</tr>
+<tr align="center">
+  <td>DH</td>
+</tr>
+<tr align="center">
+  <td>KH</td>
+</tr>
+<tr align="center">
+  <td>NY</td>
+</tr>
+<tr align="center">
+  <td>PH</td>
+</tr>
+<tr align="center">
+  <td>SH</td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+
+
+<p>&nbsp;</p>
+<hr size="2" />
+<h2>Afar (aa_ET, aa_ER)  Set</h2>
+
+<table border="0">
+<tr><td>
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="19" align="left" valign="top">
+<pre>
+char HalehameAfar[19] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1260',
+  '\u1270',
+  '\u1290',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D0',
+  '\u12E8',
+  '\u12F0',
+  '\u12F8',
+  '\u1308',
+  '\u1338',
+  '\u1348'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+12F8</td>
+  <td>ዸ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+
+
+<p><em>Also...</em><br/>Taddese Beyene, "Afar Orthography" in <cite>The Study of Development of Orthography for Five Ethiopian Languages</cite>, Ethiopian Language Academy, Addis Ababa, 1982.</p>
+
+
+<hr size="2" />
+<h2>Sidama (sid_ET) Set</h2>
+
+<p align="justify">
+Sidama also has a romanization system analogous to, but differing from,
+the Oromo's Qubee.  The Sidama system is also being investigated with
+respect to collation and ordered list use.
+</p>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="25" align="left" valign="top">
+<pre>
+char HalehameSidama[25] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12E8',
+  '\u12F0',
+  '\u12F8',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1338',
+  '\u1348'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+12F8</td>
+  <td>ዸ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+</table>
+
+<p>Note that Sidama requires four additional syllabic series (derived from ለ, መ, ረ and ነ) that are not found in Unicode/ISO and are proposed for the Extended Ethiopic range in accordance with the Sidama shift to Latin script.</p>
+
+<p><em>Also...</em><br/>Takkele Taddese, "Sidama Orthography" in <cite>The Study of Development of Orthography for Five Ethiopian Languages</cite>, Ethiopian Language Academy, Addis Ababa, 1982.</p>
+
+
+<hr size="2" />
+<h2>Somali (so_ET) Set</h2>
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="22" align="left" valign="top">
+<pre>
+char HalehameSomali[22] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1290',
+  '\u12A0',
+  '\u12A8',
+  '\u12B8',
+  '\u12C8',
+  '\u12D0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1338',
+  '\u1348'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+</table>
+
+<p>&nbsp;</p>
+<hr size="2" />
+<h2>Tigre (tig_ER) Set</h2>
+
+<table border="0">
+<tr><td>
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="27" align="left" valign="top">
+<pre>
+char HalehameTigre[27] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D0',
+  '\u12D8',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1338',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+
+<p>&nbsp;</p>
+<hr size="2" />
+<h2>Wolaita (wal_ET) Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="29" align="left" valign="top">
+<pre>
+char HalehameWolaita[29] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u12F8',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1338',
+  '\u1340',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+12F8</td>
+  <td>ዸ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+<p>Amsalu and Tesfaye omit ዸ and ጀ (U+12F8 and U+1300).</p>
+<p>Alemayehu Dugamo, <cite>The Dialectness of Kullo aand Wolaayyta</cite>, 1988, Addis Ababa</p>
+
+<p>&nbsp;</p>
+<hr size="4" />
+<h2>Ordered Lists for Languages not Covered by ISO-639</h2>
+
+
+<p>&nbsp;</p>
+<h2>Agaw Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="33" align="left" valign="top">
+<pre>
+char HalehameAgaw[33] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1250',
+  '\u1260',
+  '\u1268',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12B8',
+  '\u12C8',
+  '\u12D0',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1318',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1338',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1250</td>
+  <td>ቐ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1268</td>
+  <td>ቨ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1318</td>
+  <td>ጘ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+<ol>
+  <li>Aragawi Gebreyesus <cite>Khemtangazqu Fideln YeAgewgna Fideloch</cite>, Table of Agew Script by Agew Language Educator, 1998.</li>
+  <li>Habtamu Bekele, <cite>The Phonology of Agew</cite>, Addis Ababa University Department of Ethiopian Languages and Linguistics Master's Thesis, 1983.</li>
+  <li>Region 3 Administrative Bureau, <cite>YeAgew Demits Fidelat</cite>, Letter from Region 3 Administrative Bureau, 1998.</li>
+</ol>
+
+
+<hr size="2" />
+<h2>Ari Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="26" align="left" valign="top">
+<pre>
+char HalehameAri[26] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1260',
+  '\u1268',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u12A0',
+  '\u12A8',
+  '\u12B8',
+  '\u12C8',
+  '\u12D0',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u12F8',
+  '\u1300',
+  '\u1308',
+  '\u1328',
+  '\u1340',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1268</td>
+  <td>ቨ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+12F8</td>
+  <td>ዸ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+
+<p>Aster Zewde, Bizuwork Gonfa, Rawda Seraj, <cite>The Orthography of Gumuz and Ari</cite>, Ethiopian Language Academy, Addis Ababa, 1985</p>
+<hr size="2" />
+<h2>Bench Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="26" align="left" valign="top">
+<pre>
+char HalehameBench[26] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1338',
+  '\u1340',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+<p>Note that Bench requires four additional syllabic series (derived from ሸ, ቸ, ጨ and ዠ) that are not found in Unicode/ISO-10646 but have been proposed for the Extended Ethiopic range.</p>
+
+
+<p>Habtemariam Marcos, "Benchnon Orthography" in <cite>Orthography in Four Omotic Languages</cite>, Ethiopian Language Academy, 1982, Addis Ababa</p>
+
+
+<hr size="2" />
+<h2>Blin Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="33" align="left" valign="top">
+<pre>
+char HalehameBlin[33] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1230',
+  '\u1238',
+  '\u1228',
+  '\u1240',
+  '\u1250',
+  '\u1260',
+  '\u1270',
+  '\u1290',
+  '\u12A0',
+  '\u12A8',
+  '\u12B8',
+  '\u12C8',
+  '\u12D0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1318',
+  '\u1320',
+  '\u1328',
+  '\u1348',
+  '\u12D8',
+  '\u12E0',
+  '\u1278',
+  '\u1298',
+  '\u1338',
+  '\u1330',
+  '\u1350',
+  '\u1268'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1250</td>
+  <td>ቐ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1318</td>
+  <td>ጘ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+<tr align="center">
+  <td>U+1268</td>
+  <td>ቨ</td>
+</tr>
+</table>
+
+<p>Tekie Alibekit, <cite>Bilin Language Introductory Phonetics & Grammar 1st Edition</cite>, ISBN 82-992623-0-5, Nikolai Olsens, Oslo Norway, April 1992<br>
+Tekie Alibekit, Kiflemariam Hamde, Fessehazion Zemicael, <cite>Tefhat Blina Ktabetukhwu / Some Standardization of Blin Writing</cite> Blin Language and Culture Association, Stockholm, June 1994</p>
+
+
+<hr size="2" />
+<h2>Dizi Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="26" align="left" valign="top">
+<pre>
+char HalehameDizi[26] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1338',
+  '\u1340',
+  '\u1348'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+</table>
+
+<p>Note that ኘ (U+1298) <em>might</em> be used for the phoneme of ጘ (U+1318).</p>
+
+<p>Habtemariam Marcos, "Dizi Orthography" in <cite>Orthography in Four Omotic Languages</cite>, Ethiopian Language Academy, Addis Ababa, 1982</p>
+
+
+<hr size="2" />
+<h2>Gedeo Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="24" align="left" valign="top">
+<pre>
+char HalehameGedeo[24] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1338',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+<p>Amsalu Aklilu, Tesfaye Shewaye, <cite>Utilization of the Amharic Alphabet in the Transcription of Ethiopian Languages and Literacy</cite> Academy of Ethiopian Languages, Addis Ababa, February 1985</p>
+
+
+<hr size="2" />
+<h2>Gumuz Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="29" align="left" valign="top">
+<pre>
+char HalehameGumuz[29] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1268',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D0',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u12F8',
+  '\u1308',
+  '\u1318',
+  '\u1328',
+  '\u1330',
+  '\u1340',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1268</td>
+  <td>ቨ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+12F8</td>
+  <td>ዸ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1318</td>
+  <td>ጘ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+<p>Note that ሐ (U+1210) is used in the Aster, Bizuwork, Rawda table in place of ጘ (U+1318) for the same phoneme.</p>
+
+<p>Aster Zewde, Bizuwork Gonfa, Rawda Seraj, <cite>The Orthography of Gumuz and Ari</cite>, Ethiopian Language Academy, Addis Ababa, 1985</p>
+
+
+<hr size="2" />
+<h2>Hadiyya Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="24" align="left" valign="top">
+<pre>
+char HalehameHadiyya[24] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D8',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+<p>Some tables (by SIL?) will ommit ፐ (<code>U+1350</code>).</p>
+
+<p>Amsalu Aklilu, Tesfaye Shewaye, <cite>Utilization of the Amharic Alphabet in the Transcription of Ethiopian Languages and Literacy</cite> Academy of Ethiopian Languages, Addis Ababa, February 1985</p>
+
+
+<hr size="2" />
+<h2>Harari Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+  <td rowspan="24" align="left" valign="top">
+<pre>
+char HalehameHarari[24] = {
+  '\u1210',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12B8',
+  '\u12C8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1348'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+</table>
+
+<p>Region 13 Administrative Bureau, <cite>YeHereri Demts Fidelat</cite>, Letter from Region 13 Administrative Bureau, 1998</p>
+
+
+<hr size="2" />
+<h2>Kaffa Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="29" align="left" valign="top">
+<pre>
+char HalehameKaffa[29] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D0',
+  '\u12E8',
+  '\u12F0',
+  '\u12F8',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+12F8</td>
+  <td>ዸ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+<p>Amsalu and Tesfaye add ሠ and ኀ (U+1220 and U+1280)
+and drop ኘ and ዸ (U+1298 and U+12F8).  This seems unlikely for an Omotic
+language and may represent an error in the document or different symbology
+choices for the same phonemes.</p>
+
+
+<ol>
+  <li>Amsalu Aklilu, Tesfaye Shewaye, <cite>Utilization of the Amharic Alphabet in the Transcription of Ethiopian Languages and Literacy</cite> Academy of Ethiopian Languages, Addis Ababa, February 1985</li>
+  <li>Habtemariam Marcos, "Kefa Orthography" in <cite>Orthography in Four Omotic Languages</cite>, Ethiopian Language Academy, 1982, Addis Ababa</li>
+  <li>Kaffa and Illubabor Bethel Synods <cite>Erushi Ba Kang Ersasmakie</cite>, Mekane Yesus Church, 1987.</li>
+</ol>
+
+
+<hr size="2" />
+<h2>Kebena Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="26" align="left" valign="top">
+<pre>
+char HalehameKebena[26] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D0',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+<p>Moges Yigezu, K'&#xe4;bena Orthography</cite>, A project sponsored by the K'&#xe4;bena Development Association, 1995</p>
+
+
+<hr size="2" />
+<h2>Kembata Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="25" align="left" valign="top">
+<pre>
+char HalehameKembata[25] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1268',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D8',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1268</td>
+  <td>ቨ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+<p>Amsalu and Tesfaye omit ቨ, ጨ and ፐ (U+1268, U+1328 and U+1350).</p>
+
+<ol>
+  <li>Amsalu Aklilu, Tesfaye Shewaye, <cite>Utilization of the Amharic Alphabet in the Transcription of Ethiopian Languages and Literacy</cite> Academy of Ethiopian Languages, Addis Ababa, February 1985.</li>
+  <li>Dessalegn Samuel, <cite>A Contrastive Analysis of Kembata and Amharic Phonology</cite>, Addis Ababa University Department of Ethiopian Languages and Linguistics Master's Thesis, 1982.</li>
+  <li>Frehiwot Adnew, <cite>Evaluation of Literacy Text Books of Kembata</cite>, Addis Ababa University Department of Ethiopian Languages and Linguistics Master's Thesis, 1988.</li>
+</ol>
+
+
+<hr size="2" />
+<h2>Konso Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="22" align="left" valign="top">
+<pre>
+char HalehameKonso[22] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12B8',
+  '\u12C8',
+  '\u12D0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+<p>Haile Eyesus Engdashet, <cite>Konso Orthography</cite>, Ethiopian Language Academy, Addis Ababa, 1986</p>
+
+
+<hr size="2" />
+<h2>Kunama Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="20" align="left" valign="top">
+<pre>
+char HalehameKunama[20] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12B8',
+  '\u12C8',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1348'
+};
+</pre>
+  <!-- '\u1290\u0323",  -->
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+</table>
+
+<p>Note that ነ with dot below is presented with no phonemic information
+but might represent ጘ (U+1318) or ?~J~P with slash of Sidama.
+This character is being investigated.</p>
+
+
+<p>Amsalu Aklilu, Tesfaye Shewaye, <cite>Utilization of the Amharic Alphabet in the Transcription of Ethiopian Languages and Literacy</cite> Academy of Ethiopian Languages, Addis Ababa, February 1985<br/>
+
+
+<hr size="2" />
+<h2>Me'en Set</h2>
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="27" align="left" valign="top">
+<pre>
+char HalehameMeen[27] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1280',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D8',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1350',
+  '\u12F8',
+  '\u1340'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1280</td>
+  <td>ኀ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+<tr align="center">
+  <td>U+12F8</td>
+  <td>ዸ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+</table>
+
+<p>Note that ኀ (U+1280) is used in place of ጘ (U+1318) for the same phoneme.</p>
+
+
+
+<p>&nbsp;</p>
+<hr size="2" />
+<h2>Saho Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="23" align="left" valign="top">
+<pre>
+char HalehameSaho[23] = {
+  '\u1200',
+  '\u1208',
+  '\u1210',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1290',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D0',
+  '\u12D8',
+  '\u12E8',
+  '\u12F0',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1338',
+  '\u1348'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1210</td>
+  <td>ሐ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D0</td>
+  <td>ዐ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1338</td>
+  <td>ጸ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+</table>
+
+<p>Taddese Beyene adds ኸ, ጀ and ዠ (U+12B8, U+12E0 and U+1300).</p>
+
+
+
+<ol>
+  <li>Amsalu Aklilu, Tesfaye Shewaye, <cite>Utilization of the Amharic Alphabet in the Transcription of Ethiopian Languages and Literacy</cite> Academy of Ethiopian Languages, Addis Ababa, February 1985.</li>
+  <li>Taddese Beyene, "Saho Orthography" in <cite>The Study of Development of Orthography for Five Ethiopian Languages</cite>, Ethiopian Language Academy, Addis Ababa, 1982.</li>
+</ol>
+
+
+<hr size="2" />
+<h2>Sebat Bet Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+  <td rowspan="27" align="left" valign="top">
+<pre>
+char HalehameSebatBet[27] = {
+  '\u12B8',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1340',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1340</td>
+  <td>ፀ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+<p>Note that Sebat Bet requires four additional syllabic series (derived from ኸ, ቀ, ከ and ገ) that are <em>not</em> found in Unicode/ISO-10646 but have been proposed for the Extended Ethiopic range.</p>
+
+
+<hr size="2" />
+<h2>Silti Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="27" align="left" valign="top">
+<pre>
+char HalehameSilti[27] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12B8',
+  '\u12C8',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12B8</td>
+  <td>ኸ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+
+<p>Note that Silti data varies widely. The table above was provided by the Region 4 Administrative Bureau in 1998 and represents the most recent data available.  Silti phonology appears to require the same four additional syllabic series as Sidama (derived from ለ, መ, ረ and ነ) as well asቨ (U+1268), ዸ (U+12F8) and ጘ (U+1318).  The Amsalu and Tesfaye table adds ሐ, ዐ, ጸ and ፀ (U+1210, U+12D0, U+1338 and U+1340) and appears to use ሠ (U+1220) in place of ዸ (U+12F8) and ኀ (U+1280) appears to be used in place of ጘ (U+1318).  The Silti data should be used cautiously until Gutt's 97 dicitionary is consulted for modern usage.</p>
+
+
+
+
+<ol>
+  <li>Amsalu Aklilu, Tesfaye Shewaye, <cite>Utilization of the Amharic Alphabet in the Transcription of Ethiopian Languages and Literacy</cite> Academy of Ethiopian Languages, Addis Ababa, February 1985.</li>
+  <li>Amsalu Aklilu, "Siltie Orthography" in <cite>The Study of Development of Orthography for Five Ethiopian Languages</cite>, Ethiopian Language Academy, Addis Ababa, 1982.</li>
+  <li>Abdi Ali, <cite>A Contrastive Analysis of Siltie and Amharic</cite>, Addis Ababa University Department of Ethiopian Languages and Linguistics Master's Thesis, 1984.</li>
+  <li>Region 4 Administrative Bureau, <cite>YeFedel Sefe BeSeltigne</cite>, Letter from Region 4 Administrative Bureau, 1998.</li>
+  <!-- li>Gutt, Eva H. M., Hussein Mohammed, and Ernst-August Gutt, compilers. <cite>Silt'e - Amharic - English dictionary, (with concise grammar)</cite>, Addis Ababa: Addis Ababa University Press, 1997.</li -->
+</ol>
+
+
+<hr size="2" />
+<h2>Yemsa Set</h2>
+
+
+<h3>ሀለሐመ (Halehame)</h3>
+
+<table border="1">
+<tr>
+  <th>Address</th>
+  <th>Char</th>
+  <th>Array</th>
+</tr>
+<tr align="center">
+  <td>U+1200</td>
+  <td>ሀ</td>
+  <td rowspan="28" align="left" valign="top">
+<pre>
+char HalehameYemsa[28] = {
+  '\u1200',
+  '\u1208',
+  '\u1218',
+  '\u1228',
+  '\u1230',
+  '\u1238',
+  '\u1240',
+  '\u1260',
+  '\u1268',
+  '\u1270',
+  '\u1278',
+  '\u1290',
+  '\u1298',
+  '\u12A0',
+  '\u12A8',
+  '\u12C8',
+  '\u12D8',
+  '\u12E0',
+  '\u12E8',
+  '\u12F0',
+  '\u1300',
+  '\u1308',
+  '\u1318',
+  '\u1320',
+  '\u1328',
+  '\u1330',
+  '\u1348',
+  '\u1350'
+};
+</pre>
+  </td>
+</tr>
+<tr align="center">
+  <td>U+1208</td>
+  <td>ለ</td>
+</tr>
+<tr align="center">
+  <td>U+1218</td>
+  <td>መ</td>
+</tr>
+<tr align="center">
+  <td>U+1228</td>
+  <td>ረ</td>
+</tr>
+<tr align="center">
+  <td>U+1230</td>
+  <td>ሰ</td>
+</tr>
+<tr align="center">
+  <td>U+1238</td>
+  <td>ሸ</td>
+</tr>
+<tr align="center">
+  <td>U+1240</td>
+  <td>ቀ</td>
+</tr>
+<tr align="center">
+  <td>U+1260</td>
+  <td>በ</td>
+</tr>
+<tr align="center">
+  <td>U+1268</td>
+  <td>ቨ</td>
+</tr>
+<tr align="center">
+  <td>U+1270</td>
+  <td>ተ</td>
+</tr>
+<tr align="center">
+  <td>U+1278</td>
+  <td>ቸ</td>
+</tr>
+<tr align="center">
+  <td>U+1290</td>
+  <td>ነ</td>
+</tr>
+<tr align="center">
+  <td>U+1298</td>
+  <td>ኘ</td>
+</tr>
+<tr align="center">
+  <td>U+12A0</td>
+  <td>አ</td>
+</tr>
+<tr align="center">
+  <td>U+12A8</td>
+  <td>ከ</td>
+</tr>
+<tr align="center">
+  <td>U+12C8</td>
+  <td>ወ</td>
+</tr>
+<tr align="center">
+  <td>U+12D8</td>
+  <td>ዘ</td>
+</tr>
+<tr align="center">
+  <td>U+12E0</td>
+  <td>ዠ</td>
+</tr>
+<tr align="center">
+  <td>U+12E8</td>
+  <td>የ</td>
+</tr>
+<tr align="center">
+  <td>U+12F0</td>
+  <td>ደ</td>
+</tr>
+<tr align="center">
+  <td>U+1300</td>
+  <td>ጀ</td>
+</tr>
+<tr align="center">
+  <td>U+1308</td>
+  <td>ገ</td>
+</tr>
+<tr align="center">
+  <td>U+1318</td>
+  <td>ጘ</td>
+</tr>
+<tr align="center">
+  <td>U+1320</td>
+  <td>ጠ</td>
+</tr>
+<tr align="center">
+  <td>U+1328</td>
+  <td>ጨ</td>
+</tr>
+<tr align="center">
+  <td>U+1330</td>
+  <td>ጰ</td>
+</tr>
+<tr align="center">
+  <td>U+1348</td>
+  <td>ፈ</td>
+</tr>
+<tr align="center">
+  <td>U+1350</td>
+  <td>ፐ</td>
+</tr>
+</table>
+
+
+<p>Habtemariam Marcos, "Yemsa Orthography" in <cite>Orthography in Four Omotic Languages</cite>, Ethiopian Language Academy, 1982, Addis Ababa</p>
+<hr size="2" />
+
+</body>
+</html>
